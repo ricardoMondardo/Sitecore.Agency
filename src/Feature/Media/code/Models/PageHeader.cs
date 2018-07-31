@@ -1,9 +1,9 @@
 ﻿using Agency.Foundation.Orm.Models;
 using Glass.Mapper.Sc.Fields;
+using Glass.Mapper.Sc.Configuration.Attributes;
 
 namespace Agency.Feature.Navigation.Models
-{
-    using Glass.Mapper.Sc.Configuration.Attributes;
+{    
 
     public class PageHeader: SitecoreItem
     {

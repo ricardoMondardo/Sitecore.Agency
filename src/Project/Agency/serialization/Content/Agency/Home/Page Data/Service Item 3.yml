@@ -1,8 +1,8 @@
 ﻿---
-ID: "34613753-bb46-4dd2-b3f6-1ee8439a7d8e"
+ID: "0dc908bc-5267-4473-b0b0-85eb05cd8ae0"
 Parent: "84b13a1a-5e26-4ad2-a7b4-4bda8550060c"
 Template: "92f8833b-2dc4-4b20-a8a1-44ddbaceaa94"
-Path: /sitecore/content/Agency/Home/Page Data/Service Item
+Path: /sitecore/content/Agency/Home/Page Data/Service Item 3
 DB: master
 Languages:
 - Language: en
@@ -11,10 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180731T020817Z
+      Value: 20180731T023614Z
     - ID: "b5ba2c46-7e52-4351-8ab4-ef2a0a106e57"
       Hint: Title
-      Value: Service Item
-    - ID: "fa2d8564-143c-4b50-aaac-fe492c1aea56"
-      Hint: Icon Css
-      Value: "fa fa-laptop fa-stack-1x fa-inverse"
+      Value: Service Item 3

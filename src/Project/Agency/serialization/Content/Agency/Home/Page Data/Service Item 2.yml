@@ -15,3 +15,6 @@ Languages:
     - ID: "b5ba2c46-7e52-4351-8ab4-ef2a0a106e57"
       Hint: Title
       Value: Service Item 2
+    - ID: "fa2d8564-143c-4b50-aaac-fe492c1aea56"
+      Hint: IconCss
+      Value: "fa fa-laptop fa-stack-1x fa-inverse"
