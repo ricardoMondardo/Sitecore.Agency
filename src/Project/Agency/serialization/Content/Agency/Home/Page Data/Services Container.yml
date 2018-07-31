@@ -1,0 +1,20 @@
+﻿---
+ID: "64db53ea-2779-47d1-b1c5-b6ecf3a4a750"
+Parent: "84b13a1a-5e26-4ad2-a7b4-4bda8550060c"
+Template: "b5468692-25fd-45aa-a451-aff9e573bb2f"
+Path: /sitecore/content/Agency/Home/Page Data/Services Container
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180730T170032Z
+    - ID: "5223cf4e-13e0-413f-91f7-bb248dd36a0d"
+      Hint: SubTitle
+      Value: Services Container Subtitle
+    - ID: "5ac0105c-bc6b-4633-b586-223655b39467"
+      Hint: Title
+      Value: Services Container

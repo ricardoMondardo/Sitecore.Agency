@@ -1,0 +1,24 @@
+﻿---
+ID: "42a42bcb-8510-42ee-a14a-9725d1bc0a62"
+Parent: "92f8833b-2dc4-4b20-a8a1-44ddbaceaa94"
+Template: "92f8833b-2dc4-4b20-a8a1-44ddbaceaa94"
+Path: /sitecore/templates/Feature/Services/Services Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180730T195326Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8b24a218-60e7-4d9b-9571-6d6cd965ebdf"
+      Hint: Text
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut aliquam lorem, nec venenatis tellus. Nam fringilla quam euismod mi rhoncus, ut finibus ipsum fermentum
+    - ID: "b5ba2c46-7e52-4351-8ab4-ef2a0a106e57"
+      Hint: Title
+      Value: $name

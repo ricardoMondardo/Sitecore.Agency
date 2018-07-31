@@ -1,0 +1,28 @@
+﻿---
+ID: "ff5e06b0-40bd-4df2-88ab-f2aede2c9685"
+Parent: "84b13a1a-5e26-4ad2-a7b4-4bda8550060c"
+Template: "efb292d9-cf7d-4b9c-9cc4-db12703d217b"
+Path: /sitecore/content/Agency/Home/Page Data/Page Header
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2492819f-b33d-46e4-bfbd-4fc23ba91d76"
+      Hint: Subtitle
+      Value: Page Header Subtitle
+    - ID: "2512d050-0af2-4ebc-a46d-3d319bbf2266"
+      Hint: Title
+      Value: Page Header Title
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180206T183907Z
+    - ID: "880af041-a774-466f-9556-a27b34819678"
+      Hint: CTA Link
+      Value: |
+        <link linktype="external" text="Google" url="http://www.google.com" anchor="" target="_blank" />
+    - ID: "8b28bdb7-fd60-4b18-9a5a-29bfdb6b70eb"
+      Hint: Banner
+      Value: |
+        <image mediaid="{8D5DCAD3-E678-462E-9FB3-FA8E3040D395}" />

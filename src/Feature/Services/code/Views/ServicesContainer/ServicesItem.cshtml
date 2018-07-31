@@ -1,0 +1,41 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using Agency.Feature.Services.Models
+
+
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<ServicesItem>
+
+@if (IsInEditingMode)
+{
+    if (Html.Glass().Model == null)
+    {
+        <p>Page Header - No datasource found, please associate a datasource.</p>
+    }
+    else
+    {
+        <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">@Editable(x => x.Title)</h4>
+            <p class="text-muted">
+                @Editable(x => x.Text)
+            </p>
+        </div>
+    }
+}
+else if (!IsInEditingMode && Html.Glass().Model != null)
+{
+    <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+            <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">@Model.Title</h4>
+        <p class="text-muted">
+            @Model.Text
+        </p>
+    </div>
+}
+
+

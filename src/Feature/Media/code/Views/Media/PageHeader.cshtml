@@ -1,0 +1,46 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Agency.Feature.Navigation.Models.PageHeader>
+@{
+    string bannerSrc = string.Empty;
+    string ctaText = string.Empty;
+
+    if (Model.Banner != null)
+    {
+        bannerSrc = Model.Banner.Src;
+    }
+}
+
+@if (IsInEditingMode)
+{
+    if (Html.Glass().Model == null)
+    {
+        <p>Page Header - No datasource found, please associate a datasource.</p>
+    }
+    else
+    {
+        <header class="masthead" style="background-image: url(@bannerSrc)">
+            <div class="container">
+                <div class="intro-text">
+                    <div class="intro-lead-in">@Editable(x => x.Title)</div>
+                    <div class="intro-heading text-uppercase">@Editable(x => x.Subtitle)</div>
+                    @RenderLink(x => x.CtaLink, new { @class = "btn btn-primary btn-xl text-uppercase js-scroll-trigger" }, true)
+                </div>
+            </div>
+        </header>
+    }
+}
+else if (!IsInEditingMode && Html.Glass().Model != null)
+{
+    <header class="masthead" style="background-image: url(@bannerSrc)">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">@Model.Title</div>
+                <div class="intro-heading text-uppercase">@Model.Subtitle</div>
+                @if (Model.CtaLink != null)
+                {
+                    <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="@Model.CtaLink.Url">@Model.CtaLink.Title</a>
+                }
+            </div>
+        </div>
+    </header>
+}

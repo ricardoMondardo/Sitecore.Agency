@@ -1,0 +1,74 @@
+﻿---
+ID: "ba9c7f30-9f0e-4cc3-9cdf-3a3dc088e14b"
+Parent: "da5edcb8-7d8b-4fa5-9ce5-868a185c9f69"
+Template: "d41fa022-67ef-48f9-aa9c-f1954222e466"
+Path: /sitecore/content/Agency/Home
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{881C84FF-306F-40B2-9B4D-BA63398411CA}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{5DE02BD6-A444-4E18-BF8E-717D37C0869F}"
+          s:par=""
+          s:ph="content" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{41EAC438-5B66-49DE-874A-F7A603751E77}"
+              p:before="*"
+              s:ds="{34613753-BB46-4DD2-B3F6-1EE8439A7D8E}"
+              s:id="{5DE02BD6-A444-4E18-BF8E-717D37C0869F}"
+              s:ph="/content/service-item" />
+            <r
+              uid="{33D106F4-656C-4BB5-A4D5-A9B9505A309F}"
+              p:after="r[@uid='{41EAC438-5B66-49DE-874A-F7A603751E77}']"
+              s:ds="{1F91BD33-6132-492B-A2AF-0A2B44C9A692}"
+              s:id="{5DE02BD6-A444-4E18-BF8E-717D37C0869F}"
+              s:ph="/content/service-item" />
+            <r
+              uid="{41563003-4055-40E8-9DD1-33161E34692A}"
+              p:after="r[@uid='{33D106F4-656C-4BB5-A4D5-A9B9505A309F}']"
+              s:ds="{64DB53EA-2779-47D1-B1C5-B6ECF3A4A750}"
+              s:id="{9EBA6307-2D28-499F-8EF2-80C4A650442E}"
+              s:ph="content" />
+            <r
+              uid="{8D27D200-807C-43CA-AA4D-87DD693FA5BE}"
+              s:ds="{FF5E06B0-40BD-4DF2-88AB-F2AEDE2C9685}" />
+            <r
+              uid="{881C84FF-306F-40B2-9B4D-BA63398411CA}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180130T184745Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
