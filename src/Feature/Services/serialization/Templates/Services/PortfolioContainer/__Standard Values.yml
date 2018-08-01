@@ -1,0 +1,24 @@
+﻿---
+ID: "e028a931-62eb-417b-b682-d7f0902674c3"
+Parent: "67fb311b-5f3e-4c53-a213-ce805506f912"
+Template: "67fb311b-5f3e-4c53-a213-ce805506f912"
+Path: /sitecore/templates/Feature/Services/PortfolioContainer/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180801T020625Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8d61033e-9d9d-463f-a22c-c989fc0d0909"
+      Hint: Title
+      Value: $name
+    - ID: "c8c8eff1-3566-4cf9-9489-f0487231bba9"
+      Hint: SubTitle
+      Value: $name SubTitle
