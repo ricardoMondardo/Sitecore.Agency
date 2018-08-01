@@ -2,7 +2,7 @@
 ID: "403001c4-55b3-442e-b87f-f2f3eafcd115"
 Parent: "26f20250-d30f-433e-9a6b-70a7c6544888"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
-Path: /sitecore/layout/Renderings/Feature/Services/PortFolio Container
+Path: /sitecore/layout/Renderings/Feature/Services/Portfolio Container
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"

@@ -6,11 +6,16 @@ namespace Agency.Feature.Services.Controllers
 {
     public class PortfolioContainerController : GlassController
     {
-        // GET: PortfolioContainer
         public ActionResult PortfolioContainer()
         {
-            var data = this.GetDataSourceItem<PortfolioContainer>();
-            return View("~/Views/PortfolioContainer/PortfolioContainer.cshtml");
+            var data = GetDataSourceItem<PortfolioContainer>();
+            return View("~/Views/PortfolioContainer/PortfolioContainer.cshtml", data);
+        }
+
+        public ActionResult PortfolioItem()
+        {
+            var data = GetDataSourceItem<PortfolioItem>();
+            return View("~/Views/PortfolioContainer/PortfolioItem.cshtml", data);
         }
     }
 }

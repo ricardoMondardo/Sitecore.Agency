@@ -22,11 +22,9 @@ SharedFields:
           s:id="{9EBA6307-2D28-499F-8EF2-80C4A650442E}"
           s:ph="service-container" />
         <r
-          uid="{D7BC4B64-12AA-4EE0-B374-85167D422772}"
+          uid="{DE98CB32-676F-433A-B474-AB00F55A3F05}"
           p:after="*[1=2]"
-          s:ds=""
           s:id="{403001C4-55B3-442E-B87F-F2F3EAFCD115}"
-          s:par=""
           s:ph="portfolio-container" />
       </d>
     </r>
@@ -44,21 +42,21 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{96939FE2-B54D-45FE-9D0B-FA7342689CE1}"
-              p:before="*"
-              s:ds="{EDC2859B-B914-4FD4-93B9-BA768D2E8304}"
-              s:id="{5DE02BD6-A444-4E18-BF8E-717D37C0869F}"
-              s:ph="/service-container/service-item" />
-            <r
               uid="{4B1509D3-59D9-418D-BDED-2F5BC1B25A30}"
-              p:after="r[@uid='{96939FE2-B54D-45FE-9D0B-FA7342689CE1}']"
-              s:ds="{500FE48A-7F77-4242-A26D-79B8090FB66D}"
+              p:before="*"
+              s:ds="{24D5C460-3C34-48E3-B42B-FB8CC34E7301}"
               s:id="{5DE02BD6-A444-4E18-BF8E-717D37C0869F}"
               s:ph="/service-container/service-item" />
             <r
               uid="{6FB76140-4B05-41F2-887E-46CF358AD032}"
               p:after="r[@uid='{4B1509D3-59D9-418D-BDED-2F5BC1B25A30}']"
-              s:ds="{90EF8EE0-70A1-4F96-8EC5-818D35011599}"
+              s:ds="{7F2949E2-D8E9-429D-91DD-25403C92299C}"
+              s:id="{5DE02BD6-A444-4E18-BF8E-717D37C0869F}"
+              s:ph="/service-container/service-item" />
+            <r
+              uid="{96939FE2-B54D-45FE-9D0B-FA7342689CE1}"
+              p:after="r[@uid='{6FB76140-4B05-41F2-887E-46CF358AD032}']"
+              s:ds="{CF9B10A4-A303-402A-8432-34F7974594D7}"
               s:id="{5DE02BD6-A444-4E18-BF8E-717D37C0869F}"
               s:ph="/service-container/service-item" />
             <r
@@ -67,6 +65,10 @@ Languages:
             <r
               uid="{8F0830C0-2A46-4CD6-9569-8BBF4D8A2D22}"
               s:ds="{D45C3238-C156-4A75-961E-89EFCD0A0308}"
+              s:par="" />
+            <r
+              uid="{DE98CB32-676F-433A-B474-AB00F55A3F05}"
+              s:ds="{D7C6FBEC-5153-405E-AAF0-69E40DFE97AB}"
               s:par="" />
           </d>
         </r>

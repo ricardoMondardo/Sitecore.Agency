@@ -8,7 +8,7 @@ namespace Agency.Feature.Services.Controllers
     {
         public ActionResult ServicesContainer()
         {
-            var data = this.GetDataSourceItem<ServicesContainer>();
+            var data = GetDataSourceItem<ServicesContainer>();
             return View("~/Views/ServicesContainer/ServicesContainer.cshtml", data);
         }
 

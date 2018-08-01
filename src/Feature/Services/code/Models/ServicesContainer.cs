@@ -2,7 +2,6 @@
 
 namespace Agency.Feature.Services.Models
 {
-
    public class ServicesContainer : SitecoreItem
     {
         public virtual string Title { get; set; }
