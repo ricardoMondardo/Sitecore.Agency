@@ -1,0 +1,25 @@
+﻿---
+ID: "c4ba2ad2-64ec-40ec-8cfc-b0957844aab6"
+Parent: "d7c6fbec-5153-405e-aaf0-69e40dfe97ab"
+Template: "3971c01b-9bcd-4633-9b68-133fed80d477"
+Path: /sitecore/content/Agency/Home/Page Data/Portfolio Container/Portfolio 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180802T005410Z
+    - ID: "25cd3451-380e-448c-8ea6-f7d6755cb162"
+      Hint: Title
+      Value: Port 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "d4cf53a5-19c5-4fd8-a1e6-c9e40faf5e62"
+      Hint: Image
+      Value: |
+        <image mediaid="{27DF03F3-E444-48EE-9F3C-4A78380E09D8}" />

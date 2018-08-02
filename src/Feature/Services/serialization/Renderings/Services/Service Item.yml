@@ -17,7 +17,7 @@ SharedFields:
 - ID: "308e88f5-cd6e-4f8f-bafe-95a47dedefdc"
   Hint: Editable
   Type: Checkbox
-  Value: 1
+  Value: 0
 - ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
   Hint: Page Editor Buttons
   Type: Treelist

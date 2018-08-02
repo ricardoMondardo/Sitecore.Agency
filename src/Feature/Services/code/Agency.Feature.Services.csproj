@@ -134,8 +134,6 @@
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <Content Include="Views\ServicesContainer\ServicesItem.cshtml" />
     <Content Include="Views\PortfolioContainer\PortfolioContainer.cshtml" />
-    <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\PortfolioContainer\PortfolioItem.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Web.Debug.config">

@@ -6,7 +6,6 @@ namespace Agency.Feature.Services.Models
     public class PortfolioItem : SitecoreItem
     {
         public string Title { get; set; }
-        public string Client { get; set; }
         public Image Image { get; set; }
     }
 }
