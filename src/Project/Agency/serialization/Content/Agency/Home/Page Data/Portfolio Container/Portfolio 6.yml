@@ -1,0 +1,21 @@
+﻿---
+ID: "3d70638d-db5c-485d-b0eb-e49558b0fd1e"
+Parent: "d7c6fbec-5153-405e-aaf0-69e40dfe97ab"
+Template: "3971c01b-9bcd-4633-9b68-133fed80d477"
+Path: /sitecore/content/Agency/Home/Page Data/Portfolio Container/Portfolio 6
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180802T022115Z
+    - ID: "25cd3451-380e-448c-8ea6-f7d6755cb162"
+      Hint: Title
+      Value: Portfolio 6
+    - ID: "d4cf53a5-19c5-4fd8-a1e6-c9e40faf5e62"
+      Hint: Image
+      Value: |
+        <image mediaid="{8A97F6AB-8CF7-4FC0-98B6-5BB941AD758D}" ></image>

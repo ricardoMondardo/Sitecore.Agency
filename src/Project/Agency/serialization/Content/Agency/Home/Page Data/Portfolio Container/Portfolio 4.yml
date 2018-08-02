@@ -1,0 +1,21 @@
+﻿---
+ID: "7a24a400-a014-4e41-9463-80c839018338"
+Parent: "d7c6fbec-5153-405e-aaf0-69e40dfe97ab"
+Template: "3971c01b-9bcd-4633-9b68-133fed80d477"
+Path: /sitecore/content/Agency/Home/Page Data/Portfolio Container/Portfolio 4
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180802T022101Z
+    - ID: "25cd3451-380e-448c-8ea6-f7d6755cb162"
+      Hint: Title
+      Value: Portfolio 4
+    - ID: "d4cf53a5-19c5-4fd8-a1e6-c9e40faf5e62"
+      Hint: Image
+      Value: |
+        <image mediaid="{CA6317BD-F760-4D5C-8AE1-7D771D6DA78C}" ></image>

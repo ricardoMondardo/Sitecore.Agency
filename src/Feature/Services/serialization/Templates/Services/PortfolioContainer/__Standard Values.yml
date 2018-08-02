@@ -4,6 +4,11 @@ Parent: "67fb311b-5f3e-4c53-a213-ce805506f912"
 Template: "67fb311b-5f3e-4c53-a213-ce805506f912"
 Path: /sitecore/templates/Feature/Services/PortfolioContainer/__Standard Values
 DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{3971C01B-9BCD-4633-9B68-133FED80D477}"
 Languages:
 - Language: en
   Versions:
