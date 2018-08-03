@@ -6,37 +6,97 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Agency - Start Bootstrap Theme</title>
-    
+
     <!-- Bootstrap core CSS -->
     <link href="~/assets/css/bootstrap.css" rel="stylesheet">
     <link href="~/assets/css/agency.css" rel="stylesheet">
-    
+
     <!-- Custom fonts for this template -->
     <link href="~/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    
+
     <!-- Custom styles for this template -->
     <link href="~/assets/css/agency.min.css" rel="stylesheet">
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="~/vendor/jquery/jquery.min.js"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="~/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="~/assets/js/jqBootstrapValidation.js"></script>
+    <script src="~/assets/js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="~/assets/js/agency.min.js"></script>
+
 </head>
 
-    <body id="page-top">
-        <!-- Navigation -->
-        @Html.Sitecore().Placeholder("navigation")
+<body id="page-top">
 
-        <!-- Header -->
-        @Html.Sitecore().Placeholder("header")
+    <!-- Modal -->
+    <div class="portfolio-modal modal fade" id="portfolio" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="text-uppercase" id="projectName">XX</h2>
+                                <p class="item-intro text-muted" id="projectTitle">XX</p>
+                                <div id="projectImage">
+                                    XX
+                                </div>
+                                <p id="projectDescription">XX</p>
+                                <ul class="list-inline">
+                                    <li id="projectDate">Date: XX</li>
+                                    <li id="projectClient">Client: XX</li>
+                                    <li id="projectCategory">Category: XX</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <!-- Services -->
-        @Html.Sitecore().Placeholder("service-container")
+    <script type="text/javascript">
+        function portfolioModal(project) {
+            $("#portfolio .modal-body #projectTitle").html(project.title)
+            $("#portfolio .modal-body #projectImage").html(project.image)
+        }
+    </script>
 
-        <!-- Portfolio -->
-        @Html.Sitecore().Placeholder("portfolio-container")
+    <!-- Navigation -->
+    @Html.Sitecore().Placeholder("navigation")
 
-        <!-- Footer -->
-        @Html.Sitecore().Placeholder("footer")
+    <!-- Header -->
+    @Html.Sitecore().Placeholder("header")
 
-    </body>
+    <!-- Services -->
+    @Html.Sitecore().Placeholder("service-container")
+
+    <!-- Portfolio -->
+    @Html.Sitecore().Placeholder("portfolio-container")
+
+    <!-- Footer -->
+    @Html.Sitecore().Placeholder("footer")
+
+</body>
 </html>
