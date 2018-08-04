@@ -1,8 +1,8 @@
 ﻿---
 ID: "cfc4381d-f4fd-4bab-be7d-8686430f60d6"
-Parent: "51115717-859d-43b9-bc6e-c8f4393febf2"
+Parent: "e3914891-bfc6-4629-b3cc-354f4f229f88"
 Template: "daf085e8-602e-43a6-8299-038ff171349f"
-Path: /sitecore/media library/Feature/Services/About/1
+Path: /sitecore/media library/Feature/About/1
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"

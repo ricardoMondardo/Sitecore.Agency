@@ -2,7 +2,7 @@
 ID: "5926e494-8202-4a5b-bc2e-8578937be2bc"
 Parent: "4d7bc385-e7e4-43d9-8659-b3bd5036061f"
 Template: "4d7bc385-e7e4-43d9-8659-b3bd5036061f"
-Path: /sitecore/templates/Feature/Services/About Item/__Standard Values
+Path: /sitecore/templates/Feature/About/About Item/__Standard Values
 DB: master
 Languages:
 - Language: en

@@ -24,7 +24,8 @@ Languages:
       Value: 1
     - ID: "9a560fa2-ad78-44cb-9f6e-8bf0f60b5a86"
       Hint: Text
-      Value: About Item Text
+      Value: |
+        <span style="font-weight: bolder; color: rgb(0, 0, 0); margin: 0px; padding: 0px; text-align: justify;">Lorem Ipsum</span><span style="text-align: justify; color: rgb(0, 0, 0);">&nbsp;<g class="gr_ gr_5 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" id="5" data-gr-id="5">is simply dummy</g>&nbsp;text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span>
     - ID: "aa0fea33-a79f-4268-95ab-87c84f0bbcd9"
       Hint: Image
       Value: |

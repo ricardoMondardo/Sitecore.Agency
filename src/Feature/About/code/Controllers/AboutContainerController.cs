@@ -1,12 +1,15 @@
 ﻿using Agency.Feature.Services.Models;
 using Glass.Mapper.Sc.Web.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
 using System.Web.Mvc;
 
-namespace Agency.Feature.Services.Controllers
+namespace Agency.Feature.About.Controllers
 {
     public class AboutContainerController : GlassController
     {
-        // GET: AboutContainer
         public ActionResult AboutContainer()
         {
             var data = GetDataSourceItem<AboutContainer>();

@@ -1,8 +1,8 @@
 ﻿---
 ID: "c951edbc-d7ea-4207-9936-b2641e99b5ae"
-Parent: "b427c8ae-2424-44aa-a65c-831e2d3aa7ea"
+Parent: "65783c01-20bb-4eba-9656-b3c710e9f1aa"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Services/About Container
+Path: /sitecore/templates/Feature/About/About Container
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"

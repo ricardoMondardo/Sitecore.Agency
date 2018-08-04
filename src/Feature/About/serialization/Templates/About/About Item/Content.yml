@@ -2,7 +2,7 @@
 ID: "5b35064f-4e58-4ec7-8c0a-ab587d1093a9"
 Parent: "4d7bc385-e7e4-43d9-8659-b3bd5036061f"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Services/About Item/Content
+Path: /sitecore/templates/Feature/About/About Item/Content
 DB: master
 Languages:
 - Language: en
