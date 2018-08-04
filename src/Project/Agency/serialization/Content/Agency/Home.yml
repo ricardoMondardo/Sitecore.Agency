@@ -28,9 +28,14 @@ SharedFields:
           s:ph="portfolio-container" />
         <r
           uid="{258392E6-3317-4CEE-B279-C19DE41EF3DF}"
-          p:after="*[1=2]"
+          p:after="r[@uid='{DE98CB32-676F-433A-B474-AB00F55A3F05}']"
           s:id="{4D7C5EFB-FF33-4921-89AB-4E81819D278E}"
           s:ph="about-container" />
+        <r
+          uid="{B8625195-D8F4-46DC-ABD8-A906EE1D3BDC}"
+          p:after="*[1=2]"
+          s:id="{94DE760E-04F4-4DD5-9BA4-BB31D159079D}"
+          s:ph="team-container" />
       </d>
     </r>
 Languages:
@@ -47,8 +52,26 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{573A1273-9B9E-451A-9357-A3B3A887D270}"
+              uid="{A21CA1D0-DB12-4F10-A012-31DF55043999}"
               p:before="*"
+              s:ds="{A8B14395-03BE-4D96-968D-04DFAF34EB70}"
+              s:id="{5F81859F-C03B-417F-9057-2838F34A97F9}"
+              s:ph="/team-container/team-item" />
+            <r
+              uid="{2478810F-D219-4C4B-8E9B-E2BEAD9371AA}"
+              p:after="r[@uid='{A21CA1D0-DB12-4F10-A012-31DF55043999}']"
+              s:ds="{77B3AD7D-1219-465B-A6C8-86EC5A7F7B68}"
+              s:id="{5F81859F-C03B-417F-9057-2838F34A97F9}"
+              s:ph="/team-container/team-item" />
+            <r
+              uid="{ADC0902C-9F09-4663-84A5-384A97F6DE26}"
+              p:after="r[@uid='{2478810F-D219-4C4B-8E9B-E2BEAD9371AA}']"
+              s:ds="{1B3C8F84-6BE1-46F7-BD46-26C4282F31B7}"
+              s:id="{5F81859F-C03B-417F-9057-2838F34A97F9}"
+              s:ph="/team-container/team-item" />
+            <r
+              uid="{573A1273-9B9E-451A-9357-A3B3A887D270}"
+              p:after="r[@uid='{ADC0902C-9F09-4663-84A5-384A97F6DE26}']"
               s:ds="{A5A0A6A8-F06B-4B4C-BBA4-5395EED6608E}"
               s:id="{019BE00C-D667-4584-B948-82F35E0D6EDF}"
               s:ph="/about-container/about-item" />
@@ -102,6 +125,10 @@ Languages:
             <r
               uid="{258392E6-3317-4CEE-B279-C19DE41EF3DF}"
               s:ds="{101140BA-7E54-4418-99C2-4154694DA6A6}"
+              s:par="" />
+            <r
+              uid="{B8625195-D8F4-46DC-ABD8-A906EE1D3BDC}"
+              s:ds="{6C6CF1CA-E5F3-4BE1-AB9B-E1500E158940}"
               s:par="" />
           </d>
         </r>

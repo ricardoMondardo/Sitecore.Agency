@@ -110,6 +110,8 @@
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\AboutContainer\AboutContainer.cshtml" />
     <Content Include="Views\AboutContainer\AboutItem.cshtml" />
+    <Content Include="Views\TeamContainer\TeamContainer.cshtml" />
+    <Content Include="Views\TeamContainer\TeamItem.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -125,8 +127,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AboutContainerController.cs" />
+    <Compile Include="Controllers\TeamContainerController.cs" />
     <Compile Include="Models\AboutContainer.cs" />
     <Compile Include="Models\AboutItem.cs" />
+    <Compile Include="Models\TeamContainer.cs" />
+    <Compile Include="Models\TeamItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

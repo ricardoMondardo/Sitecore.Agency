@@ -1,0 +1,21 @@
+﻿---
+ID: "1b3c8f84-6be1-46f7-bd46-26c4282f31b7"
+Parent: "6c6cf1ca-e5f3-4be1-ab9b-e1500e158940"
+Template: "bb85a828-69c0-4544-9321-b39a54a11a8e"
+Path: /sitecore/content/Agency/Home/Page Data/Team Container/Team Item 3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "05ef8496-54f0-49b8-87c4-cccc92c63768"
+      Hint: First Name
+      Value: Team Item 3
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180804T204002Z
+    - ID: "35796c68-53c5-495e-b901-15a77890b457"
+      Hint: Image
+      Value: |
+        <image mediaid="{6A4F2893-24A7-4F7E-AF2B-165E87DF9E6A}" ></image>
