@@ -1,24 +1,24 @@
 ﻿---
-ID: "b5468692-25fd-45aa-a451-aff9e573bb2f"
+ID: "c951edbc-d7ea-4207-9936-b2641e99b5ae"
 Parent: "b427c8ae-2424-44aa-a65c-831e2d3aa7ea"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Services/Services Container
+Path: /sitecore/templates/Feature/Services/About Container
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: ApplicationsV2/32x32/form_green.png
+  Value: Applications/32x32/form_yellow.png
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Type: TreelistEx
-  Value: 
+  Value: "{4D7BC385-E7E4-43D9-8659-B3BD5036061F}"
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{970257F1-08E3-47C1-AC5D-B1D288BFBAE5}"
+  Value: "{6C66F0E7-C6E0-4977-91E9-2FC9F2014631}"
 Languages:
 - Language: en
   Versions:
@@ -26,7 +26,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180730T160402Z
+      Value: 20180803T203105Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

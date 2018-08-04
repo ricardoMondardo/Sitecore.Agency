@@ -23,9 +23,16 @@ SharedFields:
           s:ph="service-container" />
         <r
           uid="{DE98CB32-676F-433A-B474-AB00F55A3F05}"
-          p:after="*[1=2]"
+          p:after="r[@uid='{8F0830C0-2A46-4CD6-9569-8BBF4D8A2D22}']"
           s:id="{403001C4-55B3-442E-B87F-F2F3EAFCD115}"
           s:ph="portfolio-container" />
+        <r
+          uid="{58ACE50E-047B-4365-B412-BB0EC71BD65C}"
+          p:after="*[1=2]"
+          s:ds="{101140BA-7E54-4418-99C2-4154694DA6A6}"
+          s:id="{4D7C5EFB-FF33-4921-89AB-4E81819D278E}"
+          s:par=""
+          s:ph="about-container" />
       </d>
     </r>
 Languages:
@@ -42,8 +49,20 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{6672E263-6EBA-4E9B-A90C-F2E8EB28339D}"
+              uid="{01B695F3-C181-46D0-98E8-DDD28983A1A1}"
               p:before="*"
+              s:ds="{A5A0A6A8-F06B-4B4C-BBA4-5395EED6608E}"
+              s:id="{019BE00C-D667-4584-B948-82F35E0D6EDF}"
+              s:ph="/about-container/about-item" />
+            <r
+              uid="{393566DB-F99E-470A-B54E-5F7A325D9217}"
+              p:after="r[@uid='{01B695F3-C181-46D0-98E8-DDD28983A1A1}']"
+              s:ds="{B5EA5301-92F4-48E3-8A1F-C81FD89712DE}"
+              s:id="{019BE00C-D667-4584-B948-82F35E0D6EDF}"
+              s:ph="/about-container/about-item" />
+            <r
+              uid="{6672E263-6EBA-4E9B-A90C-F2E8EB28339D}"
+              p:after="r[@uid='{393566DB-F99E-470A-B54E-5F7A325D9217}']"
               s:ds="{C4BA2AD2-64EC-40EC-8CFC-B0957844AAB6}"
               s:id="{CDA30660-18E9-4A5C-BB0D-08C8AE71FCBB}"
               s:ph="/portfolio-container/portfolio-item" />

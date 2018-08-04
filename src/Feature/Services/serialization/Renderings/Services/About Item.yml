@@ -1,25 +1,29 @@
 ﻿---
-ID: "403001c4-55b3-442e-b87f-f2f3eafcd115"
+ID: "019be00c-d667-4584-b948-82f35e0d6edf"
 Parent: "26f20250-d30f-433e-9a6b-70a7c6544888"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
-Path: /sitecore/layout/Renderings/Feature/Services/Portfolio Container
+Path: /sitecore/layout/Renderings/Feature/Services/About Item
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: applications/16x16/form_red.png
+  Value: applications/32x32/star_yellow.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Feature/Services/PortfolioContainer
+  Value: /sitecore/templates/Feature/Services/About Item
+- ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
+  Hint: Page Editor Buttons
+  Type: Treelist
+  Value: "{8EB113A8-6F40-4600-968C-12868BEBBA0A}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: ./Page Data
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
-  Value: PortfolioContainer
+  Value: AboutItem
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
-  Value: Agency.Feature.Services.Controllers.PortfolioContainerController, Agency.Feature.Services
+  Value: Agency.Feature.Services.Controllers.AboutContainerController, Agency.Feature.Services
 Languages:
 - Language: en
   Versions:
@@ -27,4 +31,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180801T021915Z
+      Value: 20180804T172003Z

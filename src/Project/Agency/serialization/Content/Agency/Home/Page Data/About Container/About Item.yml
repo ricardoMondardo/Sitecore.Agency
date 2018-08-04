@@ -1,0 +1,31 @@
+﻿---
+ID: "b5ea5301-92f4-48e3-8a1f-c81fd89712de"
+Parent: "101140ba-7e54-4418-99c2-4154694da6a6"
+Template: "4d7bc385-e7e4-43d9-8659-b3bd5036061f"
+Path: /sitecore/content/Agency/Home/Page Data/About Container/About Item
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180804T173428Z
+    - ID: "37940ed6-fe8e-4073-a756-50370951b4d8"
+      Hint: Title
+      Value: About Item
+    - ID: "4db1bbda-8fbf-46ff-9cfe-59de147caed0"
+      Hint: SubTitle
+      Value: About Item SubTitle
+    - ID: "6587e38d-d95d-4a03-92e3-0b608731449c"
+      Hint: Inverted
+      Type: Checkbox
+      Value: 0
+    - ID: "9a560fa2-ad78-44cb-9f6e-8bf0f60b5a86"
+      Hint: Text
+      Value: About Item Text
+    - ID: "aa0fea33-a79f-4268-95ab-87c84f0bbcd9"
+      Hint: Image
+      Value: |
+        <image mediaid="{CFC4381D-F4FD-4BAB-BE7D-8686430F60D6}" ></image>
