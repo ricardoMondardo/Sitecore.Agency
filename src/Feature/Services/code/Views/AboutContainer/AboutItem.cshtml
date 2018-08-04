@@ -2,14 +2,14 @@
 
 @inherits Glass.Mapper.Sc.Web.Mvc.GlassView<AboutItem>
 @{ 
-    var cssClass = Model.Inverted ? "timeline-panel" : "timeline-inverted";
+    var cssClass = Model.Inverted ? "timeline-inverted" : "";
 }
 
-<li>
+<li class="@cssClass">
     <div class="timeline-image">
         @RenderImage(x => x.Image, isEditable: true, parameters: new { @class = "rounded-circle img-fluid" })
     </div>
-    <div class="@cssClass">
+    <div class="timeline-panel">
         <div class="timeline-heading">
             <h4>@Editable(x => x.Title)</h4>
             <h4 class="subheading">@Editable(x => x.SubTitle)</h4>
@@ -17,7 +17,7 @@
         <div class="timeline-body">
             <p class="text-muted">
                 @Editable(x => x.Text)
-            </p>s
+            </p>
         </div>
     </div>
 </li>

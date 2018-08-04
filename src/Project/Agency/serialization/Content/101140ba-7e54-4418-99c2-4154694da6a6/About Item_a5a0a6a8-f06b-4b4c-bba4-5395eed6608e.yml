@@ -20,7 +20,8 @@ Languages:
       Value: About Item SubTitle
     - ID: "9a560fa2-ad78-44cb-9f6e-8bf0f60b5a86"
       Hint: Text
-      Value: About Item Text
+      Value: |
+        <strong style="color: #000000; background-color: #ffffff; margin: 0px; padding: 0px; text-align: justify;">Lorem Ipsum</strong><span style="background-color: #ffffff; text-align: justify; color: #000000;">&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span>
     - ID: "aa0fea33-a79f-4268-95ab-87c84f0bbcd9"
       Hint: Image
       Value: |
