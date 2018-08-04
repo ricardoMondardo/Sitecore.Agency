@@ -23,5 +23,5 @@ Languages:
       Hint: Title
       Value: $name
     - ID: "fa2d8564-143c-4b50-aaac-fe492c1aea56"
-      Hint: IconCss
+      Hint: Icon Css
       Value: "fa fa-shopping-cart fa-stack-1x fa-inverse"
