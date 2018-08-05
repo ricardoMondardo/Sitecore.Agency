@@ -1,23 +1,53 @@
-﻿@using Agency.Feature.Services.Models;
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using Agency.Feature.Services.Models
 
 @inherits Glass.Mapper.Sc.Web.Mvc.GlassView<AboutItem>
-@{ 
+@{
     var cssClass = Model.Inverted ? "timeline-inverted" : "";
 }
 
-<li class="@cssClass">
-    <div class="timeline-image">
-        @RenderImage(x => x.Image, isEditable: true, parameters: new { @class = "rounded-circle img-fluid" })
-    </div>
-    <div class="timeline-panel">
-        <div class="timeline-heading">
-            <h4>@Editable(x => x.Title)</h4>
-            <h4 class="subheading">@Editable(x => x.SubTitle)</h4>
-        </div>
-        <div class="timeline-body">
-            <p class="text-muted">
-                @Editable(x => x.Text)
-            </p>
-        </div>
-    </div>
-</li>
+@if (IsInEditingMode)
+{
+    if (Html.Glass().Model == null)
+    {
+        <p>About Item - No datasource found, please associate a datasource.</p>
+    }
+    else
+    {
+        <li class="@cssClass">
+            <div class="timeline-image">
+                @RenderImage(x => x.Image, isEditable: true, parameters: new { @class = "rounded-circle img-fluid" })
+            </div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4>@Editable(x => x.Title)</h4>
+                    <h4 class="subheading">@Editable(x => x.SubTitle)</h4>
+                </div>
+                <div class="timeline-body">
+                    <p class="text-muted">
+                        @Editable(x => x.Text)
+                    </p>
+                </div>
+            </div>
+        </li>
+    }
+}
+else if (!IsInEditingMode && Html.Glass().Model != null)
+{
+        <li class="@cssClass">
+            <div class="timeline-image">
+                @RenderImage(x => x.Image, isEditable: false, parameters: new { @class = "rounded-circle img-fluid" })
+            </div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4>@Model.Title</h4>
+                    <h4 class="subheading">@Model.SubTitle</h4>
+                </div>
+                <div class="timeline-body">
+                    <p class="text-muted">
+                        @Html.Sitecore().Field("Text")
+                    </p>
+                </div>
+            </div>
+        </li>
+}
