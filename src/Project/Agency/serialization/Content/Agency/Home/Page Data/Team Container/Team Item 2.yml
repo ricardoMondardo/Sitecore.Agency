@@ -1,5 +1,5 @@
 ﻿---
-ID: "77b3ad7d-1219-465b-a6c8-86ec5a7f7b68"
+ID: "972aa62f-a2a2-4522-8d71-95c98bd74433"
 Parent: "6c6cf1ca-e5f3-4be1-ab9b-e1500e158940"
 Template: "bb85a828-69c0-4544-9321-b39a54a11a8e"
 Path: /sitecore/content/Agency/Home/Page Data/Team Container/Team Item 2
@@ -11,11 +11,18 @@ Languages:
     Fields:
     - ID: "05ef8496-54f0-49b8-87c4-cccc92c63768"
       Hint: First Name
-      Value: Team Item
+      Value: Team Item 2
+    - ID: "24dba11c-34c5-490e-9d7b-a59f7616de63"
+      Hint: Facebook
+      Value: |
+        <link linktype="external" text=" " url="https://www.facebook.com/" anchor="" target="_blank" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180804T202702Z
+      Value: 20180805T195921Z
     - ID: "35796c68-53c5-495e-b901-15a77890b457"
       Hint: Image
       Value: |
         <image mediaid="{E3BC8BE5-6C92-4156-9C33-E4A50C7AA1D1}" ></image>
+    - ID: "5e8da58d-e5c6-4fb5-ae98-b776890b25cc"
+      Hint: Role
+      Value: Team Item 2 Role

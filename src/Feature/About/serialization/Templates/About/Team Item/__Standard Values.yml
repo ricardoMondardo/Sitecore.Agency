@@ -1,5 +1,5 @@
 ﻿---
-ID: "c03dcc28-9cc9-4b41-9ccd-e28342db30f4"
+ID: "1d046b33-eac9-40df-81e9-251e12b959ef"
 Parent: "bb85a828-69c0-4544-9321-b39a54a11a8e"
 Template: "bb85a828-69c0-4544-9321-b39a54a11a8e"
 Path: /sitecore/templates/Feature/About/Team Item/__Standard Values
@@ -10,24 +10,31 @@ Languages:
   - Version: 1
     Fields:
     - ID: "05ef8496-54f0-49b8-87c4-cccc92c63768"
-      Hint: Name
+      Hint: First Name
       Value: $name
     - ID: "24dba11c-34c5-490e-9d7b-a59f7616de63"
       Hint: Facebook
-      Value: "https://facebook.com"
+      Value: |
+        <link text=" " linktype="external" url="https://www.facebook.com/" anchor="" target="_blank" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180804T201331Z
+      Value: 20180805T191038Z
     - ID: "2d640590-a2d1-4be8-a1f9-a51a7aaa8bff"
       Hint: Linkedin
-      Value: "https://linkedin.com"
+      Value: |
+        <link text=" " linktype="external" url="https://www.linkedin.com" anchor="" target="_blank" />
+    - ID: "35796c68-53c5-495e-b901-15a77890b457"
+      Hint: Image
+      Value: |
+        <image mediaid="{E3BC8BE5-6C92-4156-9C33-E4A50C7AA1D1}" />
     - ID: "37af2be1-db4f-4453-a3f1-6b1ea4f729eb"
       Hint: Twitter
-      Value: "https://twitter.com"
+      Value: |
+        <link text=" " linktype="external" url="https://twitter.com" anchor="" target="_blank" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\admin
     - ID: "5e8da58d-e5c6-4fb5-ae98-b776890b25cc"
       Hint: Role
-      Value: Position
+      Value: $name Role

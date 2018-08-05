@@ -1,30 +1,58 @@
-﻿@using Agency.Feature.Services.Models
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using Agency.Feature.Services.Models
 
 @inherits Glass.Mapper.Sc.Web.Mvc.GlassView<PortfolioItem>
 
-<div class="col-md-4 col-sm-6 portfolio-item">
-    <a id="portfolio_@Model.Id.ToString().Replace("{", "").Replace("}", "").Replace("-", "")"
-       class="portfolio-link" data-toggle="modal" href="#portfolio">
-        <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
+@if (IsInEditingMode)
+{
+    if (Html.Glass().Model == null)
+    {
+        <p>Portfolio Item - No datasource found, please associate a datasource.</p>
+    }
+    else
+    {
+        <div class="col-md-4 col-sm-6 portfolio-item">
+            <a id="portfolio_@Model.Id.ToString().Replace("{", "").Replace("}", "").Replace("-", "")"
+               class="portfolio-link" data-toggle="modal" href="#portfolio">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                        <i class="fa fa-plus fa-3x"></i>
+                    </div>
+                </div>
+                @RenderImage(x => x.Image, isEditable: true, parameters: new { @class = "img-fluid" })
+            </a>
+            <div class="portfolio-caption">
+                <h4>@Model.Title</h4>
+                <p class="text-muted">Illustration</p>
             </div>
         </div>
-        @RenderImage(x => x.Image, isEditable: true, parameters: new { @class = "img-fluid" })
-    </a>
-    <div class="portfolio-caption">
-        <h4>@Model.Title</h4>
-        <p class="text-muted">Illustration</p>
+    }
+}
+else if (!IsInEditingMode && Html.Glass().Model != null)
+{
+    <div class="col-md-4 col-sm-6 portfolio-item">
+        <a id="portfolio_@Model.Id.ToString().Replace("{", "").Replace("}", "").Replace("-", "")"
+           class="portfolio-link" data-toggle="modal" href="#portfolio">
+            <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                </div>
+            </div>
+            @RenderImage(x => x.Image, isEditable: false, parameters: new { @class = "img-fluid" })
+        </a>
+        <div class="portfolio-caption">
+            <h4>@Model.Title</h4>
+            <p class="text-muted">Illustration</p>
+        </div>
     </div>
-   
-    <script type="text/javascript">
+}
+
+<script type="text/javascript">
         $("#portfolio_@Model.Id.ToString().Replace("{", "").Replace("}", "").Replace("-", "")").on('click', function () {
             portfolioModal({
                 title: "@Model.Title",
                 image: '@RenderImage(model => model.Image, new { @class = "img-fluid d-block mx-auto" })',
             });
         })
-    </script>   
-
-</div>
+</script>
 

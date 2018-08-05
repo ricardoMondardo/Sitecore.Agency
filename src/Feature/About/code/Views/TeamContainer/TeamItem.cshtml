@@ -1,28 +1,69 @@
-﻿@using Agency.Feature.About.Models
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using Agency.Feature.About.Models
 
 @inherits Glass.Mapper.Sc.Web.Mvc.GlassView<TeamItem>
 
-<div class="col-sm-4">
-    <div class="team-member">
-        @RenderImage(x => x.Image, isEditable: true, parameters: new { @Class = "mx-auto rounded-circle" })
-        <h4>@Editable(x => x.FirstName)</h4>
-        <p class="text-muted">@Editable(x => x.Role)</p>
-        <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
-                <a href="@Model.Twitter">
-                    <i class="fa fa-twitter"></i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a href="@Model.Facebook">
-                    <i class="fa fa-facebook"></i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a href="@Model.Linkedin">
-                    <i class="fa fa-linkedin"></i>
-                </a>
-            </li>
-        </ul>
+@if (IsInEditingMode)
+{
+    if (Html.Glass().Model == null)
+    {
+        <p>Team Item - No datasource found, please associate a datasource.</p>
+    }
+    else
+    {
+        <div class="col-sm-4">
+            <div class="team-member">
+                @RenderImage(x => x.Image, isEditable: true, parameters: new { @Class = "mx-auto rounded-circle" })
+                <h4>@Editable(x => x.FirstName)</h4>
+                <p class="text-muted">@Editable(x => x.Role)</p>
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        @RenderLink(x => x.Twitter, new { @class = "fa fa-twitter" }, true)
+                    </li>
+                    <li class="list-inline-item">
+                        @RenderLink(x => x.Facebook, new { @class = "fa fa-facebook" }, true)
+                    </li>
+                    <li class="list-inline-item">
+                        @RenderLink(x => x.Linkedin, new { @class = "fa fa-linkedin" }, true)
+                    </li>
+                </ul>
+            </div>
+        </div>
+    }
+}
+else if (!IsInEditingMode && Html.Glass().Model != null)
+{
+    <div class="col-sm-4">
+        <div class="team-member">
+            @RenderImage(x => x.Image, isEditable: false, parameters: new { @Class = "mx-auto rounded-circle" })
+            <h4>@Model.FirstName</h4>
+            <p class="text-muted">@Model.Role</p>
+            <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                    @if (Model.Twitter != null)
+                    {
+                        <a href="@Model.Twitter.Url">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    }
+                </li>
+                <li class="list-inline-item">
+                    @if (Model.Facebook != null)
+                    {
+                        <a href="@Model.Facebook.Url">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    }
+                </li>
+                <li class="list-inline-item">
+                    @if (Model.Linkedin != null)
+                    {
+                        <a href="@Model.Linkedin.Url">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    }
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
+}
