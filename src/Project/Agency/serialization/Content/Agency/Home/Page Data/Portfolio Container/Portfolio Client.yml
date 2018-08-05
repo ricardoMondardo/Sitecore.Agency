@@ -19,6 +19,9 @@ Languages:
     - ID: "25cd3451-380e-448c-8ea6-f7d6755cb162"
       Hint: Client
       Value: Portfolio Client
+    - ID: "3b3ba546-daaf-4fb8-a656-2442d501821a"
+      Hint: Date
+      Value: 20180816T030000Z
     - ID: "5aeaa36c-022e-474d-a51e-3b160456379d"
       Hint: Category
       Value: Portfolio Item Category
