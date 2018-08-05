@@ -58,14 +58,8 @@ Languages:
               s:id="{CDA30660-18E9-4A5C-BB0D-08C8AE71FCBB}"
               s:ph="/portfolio-container/portfolio-item" />
             <r
-              uid="{79FC5882-5776-49B1-AB73-2A1626522EF4}"
-              p:after="r[@uid='{43911314-26D1-4762-84F1-08D3E6C1D779}']"
-              s:ds="{0882B26A-F970-4F0E-A8BB-67F78599055A}"
-              s:id="{CDA30660-18E9-4A5C-BB0D-08C8AE71FCBB}"
-              s:ph="/portfolio-container/portfolio-item" />
-            <r
               uid="{34F37F3C-7002-401C-9427-DD083F5FC509}"
-              p:after="r[@uid='{79FC5882-5776-49B1-AB73-2A1626522EF4}']"
+              p:after="r[@uid='{43911314-26D1-4762-84F1-08D3E6C1D779}']"
               s:ds="{047C343A-6354-46D5-ADBC-FBFB4D270646}"
               s:id="{5F81859F-C03B-417F-9057-2838F34A97F9}"
               s:ph="/team-container/team-item" />

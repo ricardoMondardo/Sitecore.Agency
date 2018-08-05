@@ -13,7 +13,7 @@ Languages:
       Hint: First Name
       Value: Team Item 2
     - ID: "24dba11c-34c5-490e-9d7b-a59f7616de63"
-      Hint: Facebook
+      Hint: Link Facebook
       Value: |
         <link linktype="external" text=" " url="https://www.facebook.com/" anchor="" target="_blank" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"

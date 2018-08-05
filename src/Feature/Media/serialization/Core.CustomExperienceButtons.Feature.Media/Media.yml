@@ -4,6 +4,10 @@ Parent: "7e22971e-1ebc-430d-b179-f287bb3b427c"
 Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
 Path: /sitecore/content/Applications/WebEdit/Custom Experience Buttons/Feature/Media
 DB: core
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 Languages:
 - Language: en
   Versions:

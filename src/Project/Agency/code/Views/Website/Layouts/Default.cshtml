@@ -52,13 +52,10 @@
                     <div class="row">
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
-                                <!-- Project Details Go Here -->
                                 <h2 class="text-uppercase" id="projectName">XX</h2>
                                 <p class="item-intro text-muted" id="projectTitle">XX</p>
-                                <div id="projectImage">
-                                    XX
-                                </div>
-                                <p id="projectDescription">XX</p>
+                                <div id="projectImage">XX</div>
+                                <p id="projectText">XX</p>
                                 <ul class="list-inline">
                                     <li id="projectDate">Date: XX</li>
                                     <li id="projectClient">Client: XX</li>
@@ -78,8 +75,14 @@
 
     <script type="text/javascript">
         function portfolioModal(project) {
-            $("#portfolio .modal-body #projectTitle").html(project.client)
+            $("#portfolio .modal-body #projectName").html(project.projecname)
+            $("#portfolio .modal-body #projectTitle").html(project.projecttitle)
             $("#portfolio .modal-body #projectImage").html(project.image)
+            $("#portfolio .modal-body #projectText").html(project.projecttext)
+            $("#portfolio .modal-body #projectDate").html(project.date)
+            $("#portfolio .modal-body #projectClient").html(project.client)
+            $("#portfolio .modal-body #projectCategory").html(project.category)
+            
         }
     </script>
 

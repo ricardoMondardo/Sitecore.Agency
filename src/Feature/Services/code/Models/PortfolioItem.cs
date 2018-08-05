@@ -14,6 +14,7 @@ namespace Agency.Feature.Services.Models
         [SitecoreField("Project Title")]
         public string ProjecTitle { get; set; }
         public DateTime Date { get; set; }
+        public string Text { get; set; }
         public Image Image { get; set; }
     }
 }

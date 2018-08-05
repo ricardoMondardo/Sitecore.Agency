@@ -18,6 +18,10 @@ Languages:
     - ID: "4db1bbda-8fbf-46ff-9cfe-59de147caed0"
       Hint: SubTitle
       Value: About Item SubTitle
+    - ID: "6587e38d-d95d-4a03-92e3-0b608731449c"
+      Hint: Inverted
+      Type: Checkbox
+      Value: 0
     - ID: "9a560fa2-ad78-44cb-9f6e-8bf0f60b5a86"
       Hint: Text
       Value: |

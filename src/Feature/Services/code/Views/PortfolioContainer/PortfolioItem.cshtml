@@ -50,8 +50,13 @@ else if (!IsInEditingMode && Html.Glass().Model != null)
 <script type="text/javascript">
         $("#portfolio_@Model.Id.ToString().Replace("{", "").Replace("}", "").Replace("-", "")").on('click', function () {
             portfolioModal({
-                client: "@Model.Client",
+                date: "Date: " + "@Model.Date.ToString("MMMM") " + " " + "@Model.Date.Year",
+                client: "Client: " + "@Model.Client",
+                category: "Category: " + "@Model.Category",                
                 image: '@RenderImage(model => model.Image, new { @class = "img-fluid d-block mx-auto" })',
+                projecname: "@Model.ProjectName",
+                projecttitle: "@Model.ProjecTitle",
+                projecttext: "@Model.Text"
             });
         })
 </script>

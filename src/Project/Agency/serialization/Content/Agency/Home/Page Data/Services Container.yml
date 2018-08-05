@@ -9,6 +9,10 @@ SharedFields:
   Hint: __Masters
   Type: TreelistEx
   Value: "{92F8833B-2DC4-4B20-A8A1-44DDBACEAA94}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: 
 Languages:
 - Language: en
   Versions:

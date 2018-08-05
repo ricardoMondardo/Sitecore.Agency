@@ -7,7 +7,7 @@ DB: core
 SharedFields:
 - ID: "4431914a-c40b-437c-8add-d2ed12cc8cc3"
   Hint: Icon
-  Value: apps/32x32/photos.png
+  Value: Applications/32x32/bullet_ball_glass_yellow.png
 - ID: "cf738220-908d-4c3f-9482-32e625daf13c"
   Hint: Fields
   Value: Banner

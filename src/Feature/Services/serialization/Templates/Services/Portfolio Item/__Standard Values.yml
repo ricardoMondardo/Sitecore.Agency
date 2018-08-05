@@ -31,3 +31,6 @@ Languages:
     - ID: "663d7e9c-cf56-493c-874d-661b1c79a7c9"
       Hint: Project Name
       Value: Project Name
+    - ID: "730615db-064f-4177-919f-856afb86c22c"
+      Hint: Text
+      Value: Project Text

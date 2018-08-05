@@ -2,7 +2,7 @@
 ID: "bcb79a84-646c-470e-9837-19828b3b0614"
 Parent: "b953ee57-98e6-4de1-84e4-f74e2ddbd889"
 Template: "1ab4f9ad-b004-413c-8924-3e07143a614b"
-Path: /sitecore/content/Applications/WebEdit/Custom Experience Buttons/Feature/Services/Css src
+Path: /sitecore/content/Applications/WebEdit/Custom Experience Buttons/Feature/Services/Service Item
 DB: core
 SharedFields:
 - ID: "4431914a-c40b-437c-8add-d2ed12cc8cc3"
@@ -16,7 +16,7 @@ Languages:
   Fields:
   - ID: "108d3a63-baaa-4560-86d8-3a112ed84717"
     Hint: Header
-    Value: Css src
+    Value: Service Item
   - ID: "5f0812af-d370-4292-afee-f26a39b7406d"
     Hint: Tooltip
     Value: Replace Icon
