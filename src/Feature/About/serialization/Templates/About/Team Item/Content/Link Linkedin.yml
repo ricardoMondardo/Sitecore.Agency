@@ -1,13 +1,13 @@
 ﻿---
-ID: "11ffabf5-223c-48f9-9578-dbcb572df2d8"
-Parent: "9a9ae58f-118a-4375-b25c-58ae5df101d5"
+ID: "2d640590-a2d1-4be8-a1f9-a51a7aaa8bff"
+Parent: "48c88988-7c19-4e7d-91cc-593cdc8bd2f5"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Services/Portfolio Item/Content/Image
+Path: /sitecore/templates/Feature/About/Team Item/Content/Link Linkedin
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Image
+  Value: General Link
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 500
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180805T203741Z
+      Value: 20180804T201251Z

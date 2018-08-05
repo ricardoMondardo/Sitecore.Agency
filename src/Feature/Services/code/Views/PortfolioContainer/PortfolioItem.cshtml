@@ -19,11 +19,11 @@
                         <i class="fa fa-plus fa-3x"></i>
                     </div>
                 </div>
-                @RenderImage(x => x.Image, isEditable: true, parameters: new { @class = "img-fluid" })
             </a>
+            @RenderImage(x => x.Image, isEditable: true, parameters: new { @class = "img-fluid" })
             <div class="portfolio-caption">
-                <h4>@Model.Title</h4>
-                <p class="text-muted">Illustration</p>
+                <h4>@Editable(x => x.Client)</h4>
+                <p class="text-muted">@Editable(x => x.Category)</p>
             </div>
         </div>
     }
@@ -41,8 +41,8 @@ else if (!IsInEditingMode && Html.Glass().Model != null)
             @RenderImage(x => x.Image, isEditable: false, parameters: new { @class = "img-fluid" })
         </a>
         <div class="portfolio-caption">
-            <h4>@Model.Title</h4>
-            <p class="text-muted">Illustration</p>
+            <h4>@Model.Client</h4>
+            <p class="text-muted">@Model.Category</p>
         </div>
     </div>
 }
@@ -50,7 +50,7 @@ else if (!IsInEditingMode && Html.Glass().Model != null)
 <script type="text/javascript">
         $("#portfolio_@Model.Id.ToString().Replace("{", "").Replace("}", "").Replace("-", "")").on('click', function () {
             portfolioModal({
-                title: "@Model.Title",
+                client: "@Model.Client",
                 image: '@RenderImage(model => model.Image, new { @class = "img-fluid d-block mx-auto" })',
             });
         })

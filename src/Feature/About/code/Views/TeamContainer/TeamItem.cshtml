@@ -18,13 +18,13 @@
                 <p class="text-muted">@Editable(x => x.Role)</p>
                 <ul class="list-inline social-buttons">
                     <li class="list-inline-item">
-                        @RenderLink(x => x.Twitter, new { @class = "fa fa-twitter" }, true)
+                        @RenderLink(x => x.LinkTwitter, new { @class = "fa fa-twitter" }, true)
                     </li>
                     <li class="list-inline-item">
-                        @RenderLink(x => x.Facebook, new { @class = "fa fa-facebook" }, true)
+                        @RenderLink(x => x.LinkFacebook, new { @class = "fa fa-facebook" }, true)
                     </li>
                     <li class="list-inline-item">
-                        @RenderLink(x => x.Linkedin, new { @class = "fa fa-linkedin" }, true)
+                        @RenderLink(x => x.LinkLinkedin, new { @class = "fa fa-linkedin" }, true)
                     </li>
                 </ul>
             </div>
@@ -40,25 +40,25 @@ else if (!IsInEditingMode && Html.Glass().Model != null)
             <p class="text-muted">@Model.Role</p>
             <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                    @if (Model.Twitter != null)
+                    @if (Model.LinkTwitter != null)
                     {
-                        <a href="@Model.Twitter.Url">
+                        <a href="@Model.LinkTwitter.Url">
                             <i class="fa fa-twitter"></i>
                         </a>
                     }
                 </li>
                 <li class="list-inline-item">
-                    @if (Model.Facebook != null)
+                    @if (Model.LinkFacebook != null)
                     {
-                        <a href="@Model.Facebook.Url">
+                        <a href="@Model.LinkFacebook.Url">
                             <i class="fa fa-facebook"></i>
                         </a>
                     }
                 </li>
                 <li class="list-inline-item">
-                    @if (Model.Linkedin != null)
+                    @if (Model.LinkLinkedin != null)
                     {
-                        <a href="@Model.Linkedin.Url">
+                        <a href="@Model.LinkLinkedin.Url">
                             <i class="fa fa-linkedin"></i>
                         </a>
                     }

@@ -1,16 +1,16 @@
 ﻿---
-ID: "11ffabf5-223c-48f9-9578-dbcb572df2d8"
+ID: "5aeaa36c-022e-474d-a51e-3b160456379d"
 Parent: "9a9ae58f-118a-4375-b25c-58ae5df101d5"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Services/Portfolio Item/Content/Image
+Path: /sitecore/templates/Feature/Services/Portfolio Item/Content/Category
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Image
+  Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 500
+  Value: 400
 Languages:
 - Language: en
   Versions:

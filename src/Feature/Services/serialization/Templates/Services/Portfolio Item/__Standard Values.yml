@@ -1,5 +1,5 @@
 ﻿---
-ID: "01b01e7c-a0a1-4e1e-bd79-758432171684"
+ID: "9be6eead-6643-49ae-9908-b235fd81c972"
 Parent: "3971c01b-9bcd-4633-9b68-133fed80d477"
 Template: "3971c01b-9bcd-4633-9b68-133fed80d477"
 Path: /sitecore/templates/Feature/Services/Portfolio Item/__Standard Values
@@ -11,11 +11,23 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180802T021949Z
+      Value: 20180805T204148Z
     - ID: "25cd3451-380e-448c-8ea6-f7d6755cb162"
-      Hint: Title
+      Hint: Client
       Value: $name
+    - ID: "2b526276-ecaf-42bd-9c99-2c9a1b1594ab"
+      Hint: Project Title
+      Value: Project Title
+    - ID: "3b3ba546-daaf-4fb8-a656-2442d501821a"
+      Hint: Date
+      Value: 20180805T030000Z
+    - ID: "5aeaa36c-022e-474d-a51e-3b160456379d"
+      Hint: Category
+      Value: $name Category
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\admin
+    - ID: "663d7e9c-cf56-493c-874d-661b1c79a7c9"
+      Hint: Project Name
+      Value: Project Name

@@ -9,9 +9,12 @@ namespace Agency.Feature.About.Models
         [SitecoreField("First Name")]
         public string FirstName { get; set; }
         public string Role { get; set; }
-        public Link Twitter { get; set; }
-        public Link Facebook { get; set; }
-        public Link Linkedin { get; set; }
+        [SitecoreField("Link Twitter")]
+        public Link LinkTwitter { get; set; }
+        [SitecoreField("Link Facebook")]
+        public Link LinkFacebook { get; set; }
+        [SitecoreField("Link Linkedin")]
+        public Link LinkLinkedin { get; set; }
         public Image Image { get; set; }
     }
 }

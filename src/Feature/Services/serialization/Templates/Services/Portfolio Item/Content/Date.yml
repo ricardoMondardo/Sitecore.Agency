@@ -1,16 +1,16 @@
 ﻿---
-ID: "24dba11c-34c5-490e-9d7b-a59f7616de63"
-Parent: "48c88988-7c19-4e7d-91cc-593cdc8bd2f5"
+ID: "3b3ba546-daaf-4fb8-a656-2442d501821a"
+Parent: "9a9ae58f-118a-4375-b25c-58ae5df101d5"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/About/Team Item/Content/Facebook
+Path: /sitecore/templates/Feature/Services/Portfolio Item/Content/Date
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: General Link
+  Value: Date
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 400
+  Value: 800
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180804T201251Z
+      Value: 20180805T203741Z
