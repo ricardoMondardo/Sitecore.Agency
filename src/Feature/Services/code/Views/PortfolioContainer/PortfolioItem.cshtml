@@ -53,7 +53,7 @@ else if (!IsInEditingMode && Html.Glass().Model != null)
                 date: "Date: " + "@Model.Date.ToString("MMMM") " + " " + "@Model.Date.Year",
                 client: "Client: " + "@Model.Client",
                 category: "Category: " + "@Model.Category",                
-                image: '@RenderImage(model => model.Image, new { @class = "img-fluid d-block mx-auto" })',
+                image: '@RenderImage(model => model.ImageFull, new { @class = "img-fluid d-block mx-auto" })',
                 projecname: "@Model.ProjectName",
                 projecttitle: "@Model.ProjecTitle",
                 projecttext: "@Model.Text"

@@ -1,8 +1,8 @@
 ﻿---
-ID: "dfb78437-b119-4909-b70d-88029243a4db"
+ID: "ebc8b060-c35b-4fbc-b540-63889712f24f"
 Parent: "d7c6fbec-5153-405e-aaf0-69e40dfe97ab"
 Template: "3971c01b-9bcd-4633-9b68-133fed80d477"
-Path: /sitecore/content/Agency/Home/Page Data/Portfolio Container/Portfolio Client
+Path: /sitecore/content/Agency/Home/Page Data/Portfolio Container/Portfolio Item 2
 DB: master
 Languages:
 - Language: en
@@ -12,23 +12,17 @@ Languages:
     - ID: "11ffabf5-223c-48f9-9578-dbcb572df2d8"
       Hint: Image
       Value: |
-        <image mediaid="{27DF03F3-E444-48EE-9F3C-4A78380E09D8}" />
+        <image mediaid="{4BDD85A5-55F3-45D9-B88A-2973A1390529}" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180805T204317Z
+      Value: 20180806T191157Z
     - ID: "25cd3451-380e-448c-8ea6-f7d6755cb162"
       Hint: Client
-      Value: Portfolio Client
-    - ID: "3b3ba546-daaf-4fb8-a656-2442d501821a"
-      Hint: Date
-      Value: 20180816T030000Z
+      Value: Portfolio Item 2
     - ID: "5aeaa36c-022e-474d-a51e-3b160456379d"
       Hint: Category
-      Value: Portfolio Item Category
-    - ID: "730615db-064f-4177-919f-856afb86c22c"
-      Hint: Text
-      Value: Project Text XX
+      Value: Portfolio Item 2 Category
     - ID: "8bffb5cc-a8d7-44cf-93d7-5a76f201a6e0"
       Hint: Image full
       Value: |
-        <image mediaid="{E5CE5089-72A8-47DE-9CFD-36D42EE134D6}" />
+        <image mediaid="{9308554C-3146-4AC8-BA0C-C67789886FCD}" />

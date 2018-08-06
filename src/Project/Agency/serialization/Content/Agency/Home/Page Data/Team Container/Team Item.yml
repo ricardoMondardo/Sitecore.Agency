@@ -22,7 +22,11 @@ Languages:
     - ID: "35796c68-53c5-495e-b901-15a77890b457"
       Hint: Image
       Value: |
-        <image mediaid="{E3BC8BE5-6C92-4156-9C33-E4A50C7AA1D1}" ></image>
+        <image mediaid="{28927058-B814-4906-9786-39F165DECF68}" />
+    - ID: "37af2be1-db4f-4453-a3f1-6b1ea4f729eb"
+      Hint: Link Twitter
+      Value: |
+        <link linktype="external" text=" " url="https://twitter.com" anchor="" target="_blank" />
     - ID: "5e8da58d-e5c6-4fb5-ae98-b776890b25cc"
       Hint: Role
       Value: Team Item Role

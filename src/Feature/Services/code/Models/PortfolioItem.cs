@@ -16,5 +16,7 @@ namespace Agency.Feature.Services.Models
         public DateTime Date { get; set; }
         public string Text { get; set; }
         public Image Image { get; set; }
+        [SitecoreField("Image full")]
+        public Image ImageFull { get; set; }
     }
 }
