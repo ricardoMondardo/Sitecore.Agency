@@ -3,6 +3,9 @@
 
 
 @inherits Glass.Mapper.Sc.Web.Mvc.GlassView<ServicesItem>
+@{ 
+    var CssClass = string.Format("fa fa-{0} fa-stack-1x fa-inverse", Model.IconCss);
+}
 
 
 @if (IsInEditingMode)
@@ -16,7 +19,7 @@
         <div class="col-md-4">
             <span class="fa-stack fa-4x">
                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                <i class="@Model.IconCss"></i>
+                <i class="@CssClass"></i>
             </span>
             <h4 class="service-heading">@Editable(x => x.Title)</h4>
             <p class="text-muted">
@@ -30,7 +33,7 @@ else if (!IsInEditingMode && Html.Glass().Model != null)
     <div class="col-md-4">
         <span class="fa-stack fa-4x">
             <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="@Model.IconCss"></i>
+            <i class="@CssClass"></i>
         </span>
         <h4 class="service-heading">@Model.Title</h4>
         <p class="text-muted">
