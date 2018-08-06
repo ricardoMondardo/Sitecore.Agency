@@ -1,0 +1,18 @@
+﻿---
+ID: "3cd6d9f0-ea39-4a67-9447-f17ad51ba9db"
+Parent: "8807db56-99fa-4273-9bde-be392548d531"
+Template: "3df93c15-54fb-4689-b7d3-98f269876f55"
+Path: /sitecore/content/Agency/Home/Page Data/Cliente Container/Cliente Item 2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180806T220526Z
+    - ID: "9419eab2-4e49-480a-ae0e-96ba9cddaf51"
+      Hint: Image
+      Value: |
+        <image mediaid="{68662F5C-93D0-47F3-AC98-32D9E2CE2AEF}" />

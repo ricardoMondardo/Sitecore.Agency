@@ -1,0 +1,28 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using Agency.Feature.About.Models
+
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<ClientItem>
+
+@if (IsInEditingMode)
+{
+    if (Html.Glass().Model == null)
+    {
+        <p>Cliente Item - No datasource found, please associate a datasource.</p>
+    }
+    else
+    {
+        <div class="col-md-3 col-sm-6">
+            <a href="#">
+                @RenderImage(x => x.Image, isEditable: true, parameters: new { @class = "img-fluid d-block mx-auto" })
+            </a>
+        </div>
+    }
+}
+else if (!IsInEditingMode && Html.Glass().Model != null)
+{
+    <div class="col-md-3 col-sm-6">
+        <a href="#">
+            @RenderImage(x => x.Image, isEditable: false, parameters: new { @class = "img-fluid d-block mx-auto" })
+        </a>
+    </div>
+}

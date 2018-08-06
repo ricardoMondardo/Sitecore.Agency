@@ -33,9 +33,14 @@ SharedFields:
           s:ph="about-container" />
         <r
           uid="{B8625195-D8F4-46DC-ABD8-A906EE1D3BDC}"
-          p:after="*[1=2]"
+          p:after="r[@uid='{258392E6-3317-4CEE-B279-C19DE41EF3DF}']"
           s:id="{94DE760E-04F4-4DD5-9BA4-BB31D159079D}"
           s:ph="team-container" />
+        <r
+          uid="{2C4CC568-C630-4AA4-B53D-52B78DC6C113}"
+          p:after="*[1=2]"
+          s:id="{E7956DBB-47CB-4728-BA5B-1D6397CE82AF}"
+          s:ph="cliente-container" />
       </d>
     </r>
 Languages:
@@ -52,8 +57,20 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{43911314-26D1-4762-84F1-08D3E6C1D779}"
+              uid="{30F6C899-3BA3-4727-8894-D13F29D2720A}"
               p:before="*"
+              s:ds="{8617BB7B-A14E-47E5-918D-FF60E126B258}"
+              s:id="{9EBB37AB-86A1-4027-8A3A-78738FC3F546}"
+              s:ph="/cliente-container/client-item" />
+            <r
+              uid="{FA5CAF50-A7F0-4660-BF2E-44030C87F545}"
+              p:after="r[@uid='{30F6C899-3BA3-4727-8894-D13F29D2720A}']"
+              s:ds="{3CD6D9F0-EA39-4A67-9447-F17AD51BA9DB}"
+              s:id="{9EBB37AB-86A1-4027-8A3A-78738FC3F546}"
+              s:ph="/cliente-container/client-item" />
+            <r
+              uid="{43911314-26D1-4762-84F1-08D3E6C1D779}"
+              p:after="r[@uid='{FA5CAF50-A7F0-4660-BF2E-44030C87F545}']"
               s:ds="{DFB78437-B119-4909-B70D-88029243A4DB}"
               s:id="{CDA30660-18E9-4A5C-BB0D-08C8AE71FCBB}"
               s:ph="/portfolio-container/portfolio-item" />
@@ -129,6 +146,10 @@ Languages:
             <r
               uid="{B8625195-D8F4-46DC-ABD8-A906EE1D3BDC}"
               s:ds="{6C6CF1CA-E5F3-4BE1-AB9B-E1500E158940}"
+              s:par="" />
+            <r
+              uid="{2C4CC568-C630-4AA4-B53D-52B78DC6C113}"
+              s:ds="{8807DB56-99FA-4273-9BDE-BE392548D531}"
               s:par="" />
           </d>
         </r>
