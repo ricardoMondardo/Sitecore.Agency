@@ -1,0 +1,22 @@
+﻿---
+ID: "3d1a2e1e-d7e4-45a9-8d6a-2cf9657f5ad1"
+Parent: "177bcb3c-294b-4d07-bc9b-ddf01664c8f6"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Feature/Service/service-item"
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "service-item"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: "{5DE02BD6-A444-4E18-BF8E-717D37C0869F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180807T174716Z

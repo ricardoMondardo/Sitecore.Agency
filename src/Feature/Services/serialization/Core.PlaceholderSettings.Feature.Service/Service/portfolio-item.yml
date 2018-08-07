@@ -1,0 +1,22 @@
+﻿---
+ID: "f228fd76-fbe1-4007-9e9f-2d54d6a52294"
+Parent: "177bcb3c-294b-4d07-bc9b-ddf01664c8f6"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Feature/Service/portfolio-item"
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "portfolio-item"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: "{CDA30660-18E9-4A5C-BB0D-08C8AE71FCBB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180807T174627Z
