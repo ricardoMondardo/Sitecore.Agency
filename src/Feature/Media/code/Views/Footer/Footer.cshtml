@@ -1,0 +1,88 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using Agency.Feature.Media.Models
+
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Footer>
+
+@if (IsInEditingMode)
+{
+    if (Html.Glass().Model == null)
+    {
+        <p>Page Footer - No datasource found, please associate a datasource.</p>
+    }
+    else
+    {
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <span class="copyright">@Editable(x => x.Copyright)</span>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                @RenderLink(x => x.LinkTtwitter, new { @class = "fa fa-twitter" }, true)
+                            </li>
+                            <li class="list-inline-item">
+                                @RenderLink(x => x.LinkFacebook, new { @class = "fa fa-facebook" }, true)
+                            </li>
+                            <li class="list-inline-item">
+                                @RenderLink(x => x.LinkLinkedin, new { @class = "fa fa-linkedin" }, true)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-inline quicklinks">
+                            <li class="list-inline-item">
+                                @RenderLink(x => x.LinkPolicy, isEditable: true)
+                            </li>
+                            <li class="list-inline-item">
+                                @RenderLink(x => x.LinkTerms, isEditable: true)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    }
+}
+else if (!IsInEditingMode && Html.Glass().Model != null)
+{
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Your Website 2018</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="@Model.LinkTtwitter.Url">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="@Model.LinkFacebook.Url">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="@Model.LinkLinkedin.Url">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li class="list-inline-item">
+                            @RenderLink(x => x.LinkPolicy)
+                        </li>
+                        <li class="list-inline-item">
+                            @RenderLink(x => x.LinkTerms)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+}

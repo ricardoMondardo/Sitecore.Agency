@@ -1,0 +1,18 @@
+﻿---
+ID: "41da586d-062d-432d-8151-a8201d0b01d8"
+Parent: "84b13a1a-5e26-4ad2-a7b4-4bda8550060c"
+Template: "37ae1aa4-aed1-4f23-bdcf-6f17f6c2717c"
+Path: /sitecore/content/Agency/Home/Page Data/Footer
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180807T200336Z

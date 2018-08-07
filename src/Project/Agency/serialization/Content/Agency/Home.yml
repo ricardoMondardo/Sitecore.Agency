@@ -43,11 +43,16 @@ SharedFields:
           s:ph="cliente-container" />
         <r
           uid="{B46139C7-FFF8-4654-B533-7A3674AD9CFD}"
-          p:after="*[1=2]"
+          p:after="r[@uid='{2C4CC568-C630-4AA4-B53D-52B78DC6C113}']"
           s:ds=""
           s:id="{69D775BC-D9E2-4251-B245-91A3984EF424}"
           s:par=""
           s:ph="form-container" />
+        <r
+          uid="{6CFF9102-7F45-4D06-ADA9-47FAFF77F820}"
+          p:after="*[1=2]"
+          s:id="{D20C5828-1C14-4854-9604-5C1245D59907}"
+          s:ph="footer" />
       </d>
     </r>
 Languages:
@@ -166,6 +171,10 @@ Languages:
             <r
               uid="{B46139C7-FFF8-4654-B533-7A3674AD9CFD}"
               s:ds="{D96A0E68-1BBD-4A09-BCB9-6AF34828FBF5}" />
+            <r
+              uid="{6CFF9102-7F45-4D06-ADA9-47FAFF77F820}"
+              s:ds="{41DA586D-062D-432D-8151-A8201D0B01D8}"
+              s:par="" />
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
