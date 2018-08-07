@@ -38,9 +38,16 @@ SharedFields:
           s:ph="team-container" />
         <r
           uid="{2C4CC568-C630-4AA4-B53D-52B78DC6C113}"
-          p:after="*[1=2]"
+          p:after="r[@uid='{B8625195-D8F4-46DC-ABD8-A906EE1D3BDC}']"
           s:id="{E7956DBB-47CB-4728-BA5B-1D6397CE82AF}"
           s:ph="cliente-container" />
+        <r
+          uid="{56F1E882-2AB7-43AB-88A6-583049D1266B}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{F320146C-03E4-452E-9BE8-73005E7BDB46}"
+          s:par=""
+          s:ph="form-comments" />
       </d>
     </r>
 Languages:

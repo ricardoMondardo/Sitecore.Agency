@@ -1,0 +1,55 @@
+﻿@using Agency.Feature.About.Models
+@using Sitecore.Mvc
+@using Glass.Mapper.Sc.Web.Mvc
+
+@model FormComment
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Contact Us</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                @using (Html.BeginRouteForm(Sitecore.Mvc.Configuration.MvcSettings.SitecoreRouteName, FormMethod.Post))
+                {
+                <div class="row">
+                    <div class="col-md-6">
+                        @Html.Sitecore().FormHandler()
+                        <div class="form-group">
+                            @Html.TextBoxFor(x => x.Name, new { @class = "form-control", id = "name", type = "text", placeholder = "Your Name *" })
+                            @Html.ValidationMessageFor(x => x.Name)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(x => x.Email, new { @class = "form-control", id = "email", type = "email", placeholder = "Your Email *" })
+                            @Html.ValidationMessageFor(x => x.Email)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(x => x.Phone, new { @class = "form-control", id = "phone", type = "tel", placeholder = "Your Phone *" })
+                            @Html.ValidationMessageFor(x => x.Phone)
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            @Html.TextBoxFor(x => x.Comment, new { @class="form-control", id = "message", placeholder = "Your Message *" })
+                            @Html.ValidationMessageFor(x => x.Comment)
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <button  id="sendMessageButtonX" class="btn btn-primary btn-xl text-uppercase" type="submit">Submit</button>
+                        </div>
+                    </div>
+
+                 </div>
+                 }
+            </div>
+        </div>
+    </div>
+</section>

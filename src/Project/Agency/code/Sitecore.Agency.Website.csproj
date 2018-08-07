@@ -166,6 +166,8 @@
     <Content Include="App_Config\Include\Project\Agency.Website.config" />
     <Content Include="App_Config\Include\Project\Agency.Website.Serialization.config" />
     <None Include="App_Config\Security\domains.config.transform" />
+    <Content Include="assets\img\header-bg.jpg" />
+    <Content Include="assets\img\map-image.png" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Properties\PublishProfiles\Habitat.pubxml" />

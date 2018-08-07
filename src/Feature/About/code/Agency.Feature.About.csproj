@@ -114,6 +114,7 @@
     <Content Include="Views\TeamContainer\TeamItem.cshtml" />
     <Content Include="Views\ClientContainer\ClientContainer.cshtml" />
     <Content Include="Views\ClientContainer\ClientItem.cshtml" />
+    <Content Include="Views\FormComments\FormComment.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -130,10 +131,12 @@
   <ItemGroup>
     <Compile Include="Controllers\ClientContainerController.cs" />
     <Compile Include="Controllers\AboutContainerController.cs" />
+    <Compile Include="Controllers\FormCommentsController.cs" />
     <Compile Include="Controllers\TeamContainerController.cs" />
     <Compile Include="Models\AboutContainer.cs" />
     <Compile Include="Models\AboutItem.cs" />
     <Compile Include="Models\ClientItem.cs" />
+    <Compile Include="Models\FormComment.cs" />
     <Compile Include="Models\TeamContainer.cs" />
     <Compile Include="Models\TeamItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
