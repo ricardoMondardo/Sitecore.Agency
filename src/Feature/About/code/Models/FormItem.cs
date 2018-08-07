@@ -6,7 +6,7 @@ using System.Web;
 
 namespace Agency.Feature.About.Models
 {
-    public class FormComment
+    public class FormItem
     {
         [Required]
         public virtual string Name { get; set; }

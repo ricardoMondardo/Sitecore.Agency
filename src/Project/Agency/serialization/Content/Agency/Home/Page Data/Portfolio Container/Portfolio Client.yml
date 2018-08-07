@@ -25,6 +25,9 @@ Languages:
     - ID: "5aeaa36c-022e-474d-a51e-3b160456379d"
       Hint: Category
       Value: Portfolio Item Category
+    - ID: "663d7e9c-cf56-493c-874d-661b1c79a7c9"
+      Hint: Project Name
+      Value: Project Name X
     - ID: "730615db-064f-4177-919f-856afb86c22c"
       Hint: Text
       Value: Project Text XX
