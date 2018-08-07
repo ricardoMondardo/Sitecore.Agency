@@ -24,16 +24,14 @@
 
         <div class="col-md-6">
             <div class="form-group">
-                @Html.TextBoxFor(x => x.Comment, new { @class = "form-control", id = "message", placeholder = "Your Message *" })
+                @Html.TextAreaFor(x => x.Comment, new { @class = "form-control", id = "message", placeholder = "Your Message *" })
                 @Html.ValidationMessageFor(x => x.Comment)
             </div>
         </div>
 
-        <div class="col-md-6">
-            <div class="clearfix"></div>
-            <div class="col-lg-12 text-center">
-                <button id="sendMessageButtonX" class="btn btn-primary btn-xl text-uppercase" type="submit">Submit</button>
-            </div>
+        <div class="clearfix"></div>
+        <div class="col-lg-12 text-center">
+            <button id="sendMessageButtonX" class="btn btn-primary btn-xl text-uppercase" type="submit">Submit</button>
         </div>
     </div>
 }
