@@ -16,3 +16,7 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20180807T200336Z
+    - ID: "93ea9b41-261b-4b28-a5a6-28d339559d2b"
+      Hint: Link Ttwitter
+      Value: |
+        <link linktype="external" text=" " url="https://twitter.com" anchor="" target="" />
