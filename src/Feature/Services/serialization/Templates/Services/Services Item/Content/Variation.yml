@@ -1,16 +1,19 @@
 ﻿---
-ID: "fa2d8564-143c-4b50-aaac-fe492c1aea56"
+ID: "0d983bde-92eb-464e-82d4-e1986cc2c406"
 Parent: "509a3d17-dafb-4880-8912-d24e349d7a39"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Services/Services Item/Content/Icon Css
+Path: /sitecore/templates/Feature/Services/Services Item/Content/Variation
 DB: master
 SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: /sitecore/content/Agency/Data/Service Layout
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: Droplink
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 300
+  Value: 400
 Languages:
 - Language: en
   Versions:
@@ -18,4 +21,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180731T124335Z
+      Value: 20180808T204023Z

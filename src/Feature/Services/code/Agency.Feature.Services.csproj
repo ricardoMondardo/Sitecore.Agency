@@ -133,6 +133,7 @@
     <Compile Include="Models\PortfolioItem.cs" />
     <Compile Include="Models\ServicesContainer.cs" />
     <Compile Include="Models\ServicesItem.cs" />
+    <Compile Include="Models\LayoutVariation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

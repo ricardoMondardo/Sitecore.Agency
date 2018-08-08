@@ -1,0 +1,18 @@
+﻿---
+ID: "dcbc556b-f0ac-4f38-a530-033ba040a0d5"
+Parent: "a106f2ac-be9c-4cc6-9918-b3e2d8f86fed"
+Template: "a106f2ac-be9c-4cc6-9918-b3e2d8f86fed"
+Path: /sitecore/templates/Feature/Services/Layout Variation/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180808T210217Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

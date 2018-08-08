@@ -14,7 +14,7 @@ namespace Agency.Feature.Services.Controllers
 
         public ActionResult ServicesItem()
         {
-            var data = GetDataSourceItem<ServicesItem>();
+            var data = GetDataSourceItem<ServicesItem>(true);
             return View("~/Views/ServicesContainer/ServicesItem.cshtml", data);
         }
     }

@@ -9,6 +9,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "0d983bde-92eb-464e-82d4-e1986cc2c406"
+      Hint: Variation
+      Value: "{31B0C5AF-6457-4583-B7C6-680B4E5E97A2}"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20180801T131659Z

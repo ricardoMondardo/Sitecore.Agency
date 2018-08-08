@@ -7,8 +7,6 @@ namespace Agency.Feature.Services.Models
     {
         public virtual string Title { get; set; }
         public virtual string Text { get; set; }
-
-        [SitecoreField("Icon Css")]
-        public virtual string IconCss { get; set; }
+        public virtual LayoutVariation Variation { get; set; }
     }
 }

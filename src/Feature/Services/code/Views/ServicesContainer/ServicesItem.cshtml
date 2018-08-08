@@ -4,7 +4,7 @@
 
 @inherits Glass.Mapper.Sc.Web.Mvc.GlassView<ServicesItem>
 @{ 
-    var CssClass = string.Format("fa fa-{0} fa-stack-1x fa-inverse", Model.IconCss);
+    var CssClass = Model.Variation != null ? Model.Variation.CssVariation : "";
 }
 
 
