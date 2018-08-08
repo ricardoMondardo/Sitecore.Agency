@@ -19,6 +19,12 @@ Languages:
     - ID: "8d61033e-9d9d-463f-a22c-c989fc0d0909"
       Hint: Title
       Value: Portfolio Container
+    - ID: "b7d68c40-f52a-47ea-99a3-6241258ac23c"
+      Hint: SubTitle
+      Value: Lorem bla bla bla
     - ID: "c8c8eff1-3566-4cf9-9489-f0487231bba9"
       Hint: SubTitle
       Value: Portfolio Container SubTitle
+    - ID: "fe20c572-bd1c-48e1-b8fa-aa20f1ecabc1"
+      Hint: Title
+      Value: portfoli

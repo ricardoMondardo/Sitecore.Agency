@@ -4,6 +4,19 @@ Parent: "ba9c7f30-9f0e-4cc3-9cdf-3a3dc088e14b"
 Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
 Path: /sitecore/content/Agency/Home/Page Data
 DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+    {EFB292D9-CF7D-4B9C-9CC4-DB12703D217B}
+    {B5468692-25FD-45AA-A451-AFF9E573BB2F}
+    {67FB311B-5F3E-4C53-A213-CE805506F912}
+    {C951EDBC-D7EA-4207-9936-B2641E99B5AE}
+    {A919428B-3357-4CB5-886D-0885B1C81C6A}
+    {CF11CBA0-D229-495F-B36F-3B7FEBB347F2}
+    {080E057A-B1B0-4BE6-A125-8E530A9D522B}
 Languages:
 - Language: en
   Versions:
