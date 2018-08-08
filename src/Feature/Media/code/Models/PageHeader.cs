@@ -2,7 +2,7 @@
 using Glass.Mapper.Sc.Fields;
 using Glass.Mapper.Sc.Configuration.Attributes;
 
-namespace Agency.Feature.Navigation.Models
+namespace Agency.Feature.Media.Models
 {    
 
     public class PageHeader: SitecoreItem

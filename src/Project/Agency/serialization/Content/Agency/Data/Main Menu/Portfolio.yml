@@ -23,4 +23,4 @@ Languages:
     - ID: "f805eaf4-b0c4-4c94-abdb-68a30c1e3ce8"
       Hint: Link
       Value: |
-        <link text="Portfolio" linktype="anchor" url="#portfolio" anchor="#portfolio" title="Portfolio" class="" />
+        <link text="Portfolio" linktype="anchor" url="#portfolioaux" anchor="#portfolioaux" title="Portfolio" class="" />

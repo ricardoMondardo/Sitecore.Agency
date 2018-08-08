@@ -21,35 +21,11 @@
 
 <body id="page-top">
 
-    <script type="text/javascript">
-        function portfolioModal(project) {
-            $("#portfolio .modal-body #projectName").html(project.projecname)
-            $("#portfolio .modal-body #projectTitle").html(project.projecttitle)
-            $("#portfolio .modal-body #projectImage").html(project.image)
-            $("#portfolio .modal-body #projectText").html(project.projecttext)
-            $("#portfolio .modal-body #projectDate").html(project.date)
-            $("#portfolio .modal-body #projectClient").html(project.client)
-            $("#portfolio .modal-body #projectCategory").html(project.category)
-        }
-    </script>
-
     <script src="~/assets/js/jquery.min.js"></script>
     <script src="~/assets/js/bootstrap.bundle.min.js"></script>
     <script src="~/assets/js/jquery.easing.min.js"></script>
     <script src="~/assets/js/jqBootstrapValidation.js"></script>
     <script src="~/assets/js/contact_me.js"></script>
-
-    <!-- Navigation -->
-    @Html.Sitecore().Placeholder("navigation")
-
-    <!-- Header -->
-    @Html.Sitecore().Placeholder("header")
-
-    <!-- Services -->
-    @Html.Sitecore().Placeholder("service-container")
-
-    <!-- Portfolio -->
-    @Html.Sitecore().Placeholder("portfolio-container")
 
     <!-- Modal -->
     <div class="portfolio-modal modal fade" id="portfolio" tabindex="-1" role="dialog" aria-hidden="true">
@@ -84,6 +60,31 @@
             </div>
         </div>
     </div>
+
+    <script type="text/javascript">
+        function portfolioModal(project) {
+            $("#portfolio .modal-body #projectName").html(project.projecname)
+            $("#portfolio .modal-body #projectTitle").html(project.projecttitle)
+            $("#portfolio .modal-body #projectImage").html(project.image)
+            $("#portfolio .modal-body #projectText").html(project.projecttext)
+            $("#portfolio .modal-body #projectDate").html(project.date)
+            $("#portfolio .modal-body #projectClient").html(project.client)
+            $("#portfolio .modal-body #projectCategory").html(project.category)
+        }
+    </script>
+
+    <!-- Navigation -->
+    @Html.Sitecore().Placeholder("navigation")
+
+    <!-- Header -->
+    @Html.Sitecore().Placeholder("header")
+
+    <!-- Services -->
+    @Html.Sitecore().Placeholder("service-container")
+
+    <!-- Portfolio -->
+    <div id="portfolioaux"></div>
+    @Html.Sitecore().Placeholder("portfolio-container")
 
     <!-- About -->
     @Html.Sitecore().Placeholder("about-container")

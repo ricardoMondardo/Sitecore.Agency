@@ -4,7 +4,7 @@ using Glass.Mapper.Sc.Fields;
 
 namespace Agency.Feature.Media.Models
 {
-    public class Footer : SitecoreItem
+    public class PageFooter : SitecoreItem
     {
         public Link Copyright { get; set; }
         [SitecoreField("Link Ttwitter")]
