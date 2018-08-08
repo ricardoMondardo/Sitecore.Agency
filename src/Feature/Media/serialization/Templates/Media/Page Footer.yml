@@ -2,7 +2,7 @@
 ID: "37ae1aa4-aed1-4f23-bdcf-6f17f6c2717c"
 Parent: "42afcab6-2f22-40bf-8347-eb3e604716ab"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Media/Footer
+Path: /sitecore/templates/Feature/Media/Page Footer
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"

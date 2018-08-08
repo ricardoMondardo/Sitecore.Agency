@@ -10,7 +10,7 @@ SharedFields:
   Value: applications/32x32/bullet_ball_glass_grey.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Feature/Media/Footer
+  Value: /sitecore/templates/Feature/Media/Page Footer
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: ./Page Data

@@ -19,7 +19,7 @@ Languages:
     - ID: "01725809-dc82-43ad-9dfd-1118fb5a6e3e"
       Hint: Link Terms
       Value: |
-        <link linktype="external" text="Terms of Use" url="http://#" anchor="" target="" />
+        <link linktype="external" text="Terms of Use" url="http://agency.local/" anchor="" target="" />
     - ID: "10c8d851-d366-45ee-822a-b6de2034604a"
       Hint: Link Linkedin
       Value: |
@@ -38,7 +38,7 @@ Languages:
     - ID: "b6ed03f3-7e48-4e9b-a364-5e46e354a1ca"
       Hint: Link Policy
       Value: |
-        <link linktype="external" text="Privacy Policy" url="http://#" anchor="" target="" />
+        <link linktype="external" text="Privacy Policy" url="http://agency.local/" anchor="" target="" />
     - ID: "cf8ca483-eb1d-46b1-b3c2-3f780957875b"
       Hint: Link Facebook
       Value: |

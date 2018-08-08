@@ -1,8 +1,8 @@
 ﻿---
-ID: "10c8d851-d366-45ee-822a-b6de2034604a"
+ID: "01725809-dc82-43ad-9dfd-1118fb5a6e3e"
 Parent: "b0882165-65fd-4d31-91e8-119e9980817e"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Media/Footer/Content/Link Linkedin
+Path: /sitecore/templates/Feature/Media/Page Footer/Content/Link Terms
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
@@ -10,7 +10,7 @@ SharedFields:
   Value: General Link
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 400
+  Value: 600
 Languages:
 - Language: en
   Versions:

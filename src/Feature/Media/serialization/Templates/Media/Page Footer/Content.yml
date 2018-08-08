@@ -2,7 +2,7 @@
 ID: "b0882165-65fd-4d31-91e8-119e9980817e"
 Parent: "37ae1aa4-aed1-4f23-bdcf-6f17f6c2717c"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Media/Footer/Content
+Path: /sitecore/templates/Feature/Media/Page Footer/Content
 DB: master
 Languages:
 - Language: en

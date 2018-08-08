@@ -2,7 +2,7 @@
 ID: "d4973a06-61ff-4fe9-9ce5-f4d771d608ae"
 Parent: "b0882165-65fd-4d31-91e8-119e9980817e"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Media/Footer/Content/Link Facebook
+Path: /sitecore/templates/Feature/Media/Page Footer/Content/Link Facebook
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
