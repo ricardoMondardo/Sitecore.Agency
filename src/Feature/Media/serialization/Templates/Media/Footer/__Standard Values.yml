@@ -1,0 +1,25 @@
+﻿---
+ID: "4286afbb-efd5-4ffd-8b57-7cb21b238dc9"
+Parent: "37ae1aa4-aed1-4f23-bdcf-6f17f6c2717c"
+Template: "37ae1aa4-aed1-4f23-bdcf-6f17f6c2717c"
+Path: /sitecore/templates/Feature/Media/Footer/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Value: "20180808T173512:636693465122232778Z"
+    - ID: "93ea9b41-261b-4b28-a5a6-28d339559d2b"
+      Hint: Link Ttwitter
+      Value: |
+        <link text="Twitter " linktype="external" url="https://twitter.com" anchor="" target="" />
+    - ID: "cf8ca483-eb1d-46b1-b3c2-3f780957875b"
+      Hint: Link Facebook
+      Value: |
+        <link text="Facebook " linktype="external" url="https://www.facebook.com/" anchor="" target="" />
+    - ID: "f393e82f-d13e-4000-a552-75e9ff70837e"
+      Hint: Link Linkedin
+      Value: |
+        <link text="Linkedin " linktype="external" url="https://www.linkedin.com" anchor="" target="" />

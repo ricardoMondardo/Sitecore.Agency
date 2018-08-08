@@ -19,4 +19,12 @@ Languages:
     - ID: "93ea9b41-261b-4b28-a5a6-28d339559d2b"
       Hint: Link Ttwitter
       Value: |
-        <link linktype="external" text=" " url="https://twitter.com" anchor="" target="" />
+        <link linktype="external" text="Twitter " url="https://twitter.com" anchor="" target="" />
+    - ID: "cf8ca483-eb1d-46b1-b3c2-3f780957875b"
+      Hint: Link Facebook
+      Value: |
+        <link linktype="external" text="Facebook " url="https://www.facebook.com/" anchor="" target="" />
+    - ID: "f393e82f-d13e-4000-a552-75e9ff70837e"
+      Hint: Link Linkedin
+      Value: |
+        <link linktype="external" text="Linkedin " url="https://www.linkedin.com" anchor="" target="" />

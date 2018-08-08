@@ -15,14 +15,22 @@ Languages:
     - ID: "24dba11c-34c5-490e-9d7b-a59f7616de63"
       Hint: Link Facebook
       Value: |
-        <link linktype="external" text=" " url="https://www.facebook.com/" anchor="" target="_blank" />
+        <link linktype="external" text="Facebook" url="https://www.facebook.com/" anchor="" target="_blank" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20180805T195921Z
+    - ID: "2d640590-a2d1-4be8-a1f9-a51a7aaa8bff"
+      Hint: Link Linkedin
+      Value: |
+        <link linktype="external" text="Linkedin " url="https://www.linkedin.com" anchor="" target="_blank" />
     - ID: "35796c68-53c5-495e-b901-15a77890b457"
       Hint: Image
       Value: |
         <image mediaid="{E3BC8BE5-6C92-4156-9C33-E4A50C7AA1D1}" ></image>
+    - ID: "37af2be1-db4f-4453-a3f1-6b1ea4f729eb"
+      Hint: Link Twitter
+      Value: |
+        <link linktype="external" text="Twitter " url="https://twitter.com" anchor="" target="_blank" />
     - ID: "5e8da58d-e5c6-4fb5-ae98-b776890b25cc"
       Hint: Role
       Value: Team Item 2 Role
