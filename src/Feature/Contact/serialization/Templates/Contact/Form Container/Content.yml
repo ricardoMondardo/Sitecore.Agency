@@ -2,7 +2,7 @@
 ID: "b9a92c12-9ed1-4eb5-9958-206184d3db6d"
 Parent: "080e057a-b1b0-4be6-a125-8e530a9d522b"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/About/Form Container/Content
+Path: /sitecore/templates/Feature/Contact/Form Container/Content
 DB: master
 Languages:
 - Language: en

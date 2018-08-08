@@ -1,12 +1,8 @@
-﻿using Agency.Feature.About.Models;
+﻿using Agency.Feature.Contact.Models;
 using Glass.Mapper.Sc.Web.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
-namespace Agency.Feature.About.Controllers
+namespace Agency.Feature.Contact.Controllers
 {
     public class CommetsContainerController : GlassController
     {

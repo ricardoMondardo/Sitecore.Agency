@@ -1,8 +1,8 @@
 ﻿---
 ID: "69d775bc-d9e2-4251-b245-91a3984ef424"
-Parent: "f6a73210-a152-49af-9012-d816ae1f7fd4"
+Parent: "81cd7fd3-e3e3-4a7d-be3f-a1fa9f740ec6"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
-Path: /sitecore/layout/Renderings/Feature/About/Comment Conteiner
+Path: /sitecore/layout/Renderings/Feature/Contact/Comment Conteiner
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
@@ -10,7 +10,7 @@ SharedFields:
   Value: Applications/16x16/find.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Feature/About/Form Container
+  Value: /sitecore/templates/Feature/Contact/Form Container
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: ./Page Data
@@ -19,7 +19,7 @@ SharedFields:
   Value: CommentConteiner
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
-  Value: Agency.Feature.About.Controllers.CommetsContainerController, Agency.Feature.About
+  Value: Agency.Feature.Contact.Controllers.CommetsContainerController, Agency.Feature.Contact
 Languages:
 - Language: en
   Versions:

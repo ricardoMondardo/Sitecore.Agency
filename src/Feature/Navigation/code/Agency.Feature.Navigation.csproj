@@ -114,6 +114,7 @@
     </Content>
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Menu\MainMenu.cshtml" />
+    <Content Include="Views\Web.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

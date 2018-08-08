@@ -113,6 +113,7 @@
     <Content Include="Views\Media\PageHeader.cshtml" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Footer\Footer.cshtml" />
+    <Content Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

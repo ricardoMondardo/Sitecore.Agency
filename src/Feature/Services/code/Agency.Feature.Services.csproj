@@ -115,6 +115,7 @@
     <Content Include="Views\ServicesContainer\ServicesItem.cshtml" />
     <Content Include="Views\PortfolioContainer\PortfolioContainer.cshtml" />
     <Content Include="Views\PortfolioContainer\PortfolioItem.cshtml" />
+    <Content Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

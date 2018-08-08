@@ -1,8 +1,8 @@
 ﻿---
 ID: "f320146c-03e4-452e-9be8-73005e7bdb46"
-Parent: "f6a73210-a152-49af-9012-d816ae1f7fd4"
+Parent: "81cd7fd3-e3e3-4a7d-be3f-a1fa9f740ec6"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
-Path: /sitecore/layout/Renderings/Feature/About/Form Item
+Path: /sitecore/layout/Renderings/Feature/Contact/Form Item
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
@@ -13,7 +13,7 @@ SharedFields:
   Value: Comments
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
-  Value: Agency.Feature.About.Controllers.CommetsContainerController, Agency.Feature.About
+  Value: Agency.Feature.Contact.Controllers.CommetsContainerController, Agency.Feature.Contact
 Languages:
 - Language: en
   Versions:
