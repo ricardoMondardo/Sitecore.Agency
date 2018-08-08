@@ -6,7 +6,7 @@ using System.Web;
 
 namespace Agency.Feature.Contact.Models
 {
-    public class FormItem
+    public class ContactForm
     {
         [Required]
         public virtual string Name { get; set; }

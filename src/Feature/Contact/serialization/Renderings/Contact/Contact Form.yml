@@ -1,25 +1,19 @@
 ﻿---
-ID: "69d775bc-d9e2-4251-b245-91a3984ef424"
+ID: "f320146c-03e4-452e-9be8-73005e7bdb46"
 Parent: "81cd7fd3-e3e3-4a7d-be3f-a1fa9f740ec6"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
-Path: /sitecore/layout/Renderings/Feature/Contact/Comment Conteiner
+Path: /sitecore/layout/Renderings/Feature/Contact/Contact Form
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: Applications/16x16/find.png
-- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
-  Hint: Datasource Template
-  Value: /sitecore/templates/Feature/Contact/Form Container
-- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
-  Hint: Datasource Location
-  Value: ./Page Data
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
-  Value: CommentConteiner
+  Value: Form
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
-  Value: Agency.Feature.Contact.Controllers.CommetsContainerController, Agency.Feature.Contact
+  Value: Agency.Feature.Contact.Controllers.ContactContainerController, Agency.Feature.Contact
 Languages:
 - Language: en
   Versions:
@@ -27,4 +21,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180807T174423Z
+      Value: 20180807T021831Z

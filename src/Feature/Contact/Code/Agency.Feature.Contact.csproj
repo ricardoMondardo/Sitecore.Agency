@@ -106,8 +106,8 @@
     <Content Include="App_Config\Include\Feature\Feature.Contact.Serialization.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Views\CommetsContainer\FormContainer.cshtml" />
-    <Content Include="Views\CommetsContainer\FormItem.cshtml" />
+    <Content Include="Views\ContactContainer\ContactContainer.cshtml" />
+    <Content Include="Views\ContactContainer\ContactForm.cshtml" />
     <Content Include="App_Config\Include\z.Glass.Mapper.Sc.ViewRender.config.exclude" />
     <Content Include="App_Config\Include\Glass.Mapper.Sc.Start.config" />
     <Content Include="App_Config\Include\Glass.Mapper.Sc.config" />
@@ -118,9 +118,9 @@
   <ItemGroup>
     <Compile Include="App_Start\GlassMapperSc.cs" />
     <Compile Include="App_Start\GlassMapperScCustom.cs" />
-    <Compile Include="Controllers\CommetsContainerController.cs" />
-    <Compile Include="Models\FormContainer.cs" />
-    <Compile Include="Models\FormItem.cs" />
+    <Compile Include="Controllers\ContactContainerController.cs" />
+    <Compile Include="Models\ContactContainer.cs" />
+    <Compile Include="Models\ContactForm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
