@@ -1,8 +1,8 @@
 ﻿---
 ID: "d8fd0d51-22d5-4a9a-b7b0-dfd1bb1ad049"
-Parent: "afe32695-9f39-4465-aa36-a6d973bcd86e"
+Parent: "32a36b67-115b-47f4-b4b3-b7768b2bd80a"
 Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
-Path: "/sitecore/layout/Placeholder Settings/Feature/About/form-item"
+Path: "/sitecore/layout/Placeholder Settings/Feature/Contact/form-item"
 DB: master
 SharedFields:
 - ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
