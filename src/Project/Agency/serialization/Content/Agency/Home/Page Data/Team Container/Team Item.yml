@@ -26,7 +26,7 @@ Languages:
     - ID: "37af2be1-db4f-4453-a3f1-6b1ea4f729eb"
       Hint: Link Twitter
       Value: |
-        <link linktype="external" text=" " url="https://twitter.com" anchor="" target="_blank" />
+        <link linktype="external" text=" Twitter" url="https://twitter.com" anchor="" target="_blank" />
     - ID: "5e8da58d-e5c6-4fb5-ae98-b776890b25cc"
       Hint: Role
       Value: Team Item Role

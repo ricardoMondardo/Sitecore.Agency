@@ -18,13 +18,22 @@
                 <p class="text-muted">@Editable(x => x.Role)</p>
                 <ul class="list-inline social-buttons">
                     <li class="list-inline-item">
-                        @RenderLink(x => x.LinkTwitter, new { @class = "fa fa-twitter" }, true)
+                        @using (BeginRenderLink(x => x.LinkTwitter, null, true))
+                        {
+                            <i class="fa fa-twitter"></i>
+                        }
                     </li>
                     <li class="list-inline-item">
-                        @RenderLink(x => x.LinkFacebook, new { @class = "fa fa-facebook" }, true)
+                        @using (BeginRenderLink(x => x.LinkFacebook, null, true))
+                        {
+                            <i class="fa fa-facebook"></i>
+                        }
                     </li>
                     <li class="list-inline-item">
-                        @RenderLink(x => x.LinkLinkedin, new { @class = "fa fa-linkedin" }, true)
+                        @using (BeginRenderLink(x => x.LinkLinkedin, null, true))
+                        {
+                            <i class="fa fa-linkedin"></i>
+                        }
                     </li>
                 </ul>
             </div>

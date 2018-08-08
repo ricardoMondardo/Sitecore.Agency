@@ -15,21 +15,21 @@ Languages:
     - ID: "24dba11c-34c5-490e-9d7b-a59f7616de63"
       Hint: Link Facebook
       Value: |
-        <link text=" " linktype="external" url="https://www.facebook.com/" anchor="" target="_blank" />
+        <link text="Facebook " linktype="external" url="https://www.facebook.com/" anchor="" target="_blank" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20180805T191038Z
     - ID: "2d640590-a2d1-4be8-a1f9-a51a7aaa8bff"
       Hint: Link Linkedin
       Value: |
-        <link text=" " linktype="external" url="https://www.linkedin.com" anchor="" target="_blank" />
+        <link text="Linkedin " linktype="external" url="https://www.linkedin.com" anchor="" target="_blank" />
     - ID: "35796c68-53c5-495e-b901-15a77890b457"
       Hint: Image
       Value: 
     - ID: "37af2be1-db4f-4453-a3f1-6b1ea4f729eb"
       Hint: Link Twitter
       Value: |
-        <link text=" " linktype="external" url="https://twitter.com" anchor="" target="_blank" />
+        <link text="Twitter " linktype="external" url="https://twitter.com" anchor="" target="_blank" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
