@@ -5,6 +5,9 @@ Template: "37ae1aa4-aed1-4f23-bdcf-6f17f6c2717c"
 Path: /sitecore/content/Agency/Home/Page Data/Footer
 DB: master
 SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: apps/32x32/technology.png
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 700

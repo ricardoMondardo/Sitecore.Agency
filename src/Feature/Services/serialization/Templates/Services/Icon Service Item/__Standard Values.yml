@@ -1,8 +1,8 @@
 ﻿---
-ID: "9592d4c0-2099-4292-b86d-b170383373f3"
+ID: "dcbc556b-f0ac-4f38-a530-033ba040a0d5"
 Parent: "a106f2ac-be9c-4cc6-9918-b3e2d8f86fed"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Services/Icon Service Option/Content
+Template: "a106f2ac-be9c-4cc6-9918-b3e2d8f86fed"
+Path: /sitecore/templates/Feature/Services/Icon Service Item/__Standard Values
 DB: master
 Languages:
 - Language: en
@@ -11,7 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180808T204211Z
+      Value: 20180808T210217Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
