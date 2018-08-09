@@ -19,9 +19,15 @@ Languages:
     - ID: "25cd3451-380e-448c-8ea6-f7d6755cb162"
       Hint: Client
       Value: Portfolio Item 2
+    - ID: "2b526276-ecaf-42bd-9c99-2c9a1b1594ab"
+      Hint: Project Title
+      Value: Project Title ***
     - ID: "5aeaa36c-022e-474d-a51e-3b160456379d"
       Hint: Category
       Value: Portfolio Item 2 Category
+    - ID: "663d7e9c-cf56-493c-874d-661b1c79a7c9"
+      Hint: Project Name
+      Value: Project Name ZZZ
     - ID: "8bffb5cc-a8d7-44cf-93d7-5a76f201a6e0"
       Hint: Image full
       Value: |
