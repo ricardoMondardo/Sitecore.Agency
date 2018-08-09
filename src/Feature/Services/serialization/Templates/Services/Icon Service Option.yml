@@ -2,7 +2,7 @@
 ID: "a106f2ac-be9c-4cc6-9918-b3e2d8f86fed"
 Parent: "b427c8ae-2424-44aa-a65c-831e2d3aa7ea"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Services/Layout Variation
+Path: /sitecore/templates/Feature/Services/Icon Service Option
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"

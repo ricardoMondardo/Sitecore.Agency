@@ -1,8 +1,8 @@
 ﻿---
-ID: "0c424421-467c-4a44-9c42-5303c39e27e0"
-Parent: "18ff2b7a-c692-4787-b58a-e62f51eb1b14"
+ID: "5079d77c-1947-4a56-97e8-a3246415c7a9"
+Parent: "2b16c440-1050-4687-9730-d4bf6a0fff3c"
 Template: "a106f2ac-be9c-4cc6-9918-b3e2d8f86fed"
-Path: /sitecore/content/Agency/Data/Service Layout/Adress Book
+Path: /sitecore/content/Agency/Data/Icon Service/Adress Book
 DB: master
 Languages:
 - Language: en
@@ -11,7 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180808T210338Z
+      Value: 20180809T130419Z
     - ID: "bfa04b02-aebf-4f4a-a1b8-a45a6863cd92"
       Hint: Css Variation
       Value: "fa fa-address-book fa-stack-1x fa-inverse"
