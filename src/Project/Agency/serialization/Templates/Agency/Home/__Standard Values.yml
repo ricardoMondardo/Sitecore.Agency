@@ -21,6 +21,36 @@ SharedFields:
           id="{0F1673EE-7148-49C0-8952-0AE644099178}"
           ph="header"
           uid="{8D27D200-807C-43CA-AA4D-87DD693FA5BE}" />
+        <r
+          uid="{8F0830C0-2A46-4CD6-9569-8BBF4D8A2D22}"
+          id="{9EBA6307-2D28-499F-8EF2-80C4A650442E}"
+          ph="service-container" />
+        <r
+          uid="{DE98CB32-676F-433A-B474-AB00F55A3F05}"
+          id="{403001C4-55B3-442E-B87F-F2F3EAFCD115}"
+          ph="portfolio-container" />
+        <r
+          uid="{258392E6-3317-4CEE-B279-C19DE41EF3DF}"
+          id="{4D7C5EFB-FF33-4921-89AB-4E81819D278E}"
+          ph="about-container" />
+        <r
+          uid="{B8625195-D8F4-46DC-ABD8-A906EE1D3BDC}"
+          id="{94DE760E-04F4-4DD5-9BA4-BB31D159079D}"
+          ph="team-container" />
+        <r
+          uid="{2C4CC568-C630-4AA4-B53D-52B78DC6C113}"
+          id="{E7956DBB-47CB-4728-BA5B-1D6397CE82AF}"
+          ph="cliente-container" />
+        <r
+          uid="{B46139C7-FFF8-4654-B533-7A3674AD9CFD}"
+          ds=""
+          id="{69D775BC-D9E2-4251-B245-91A3984EF424}"
+          par=""
+          ph="form-container" />
+        <r
+          uid="{6CFF9102-7F45-4D06-ADA9-47FAFF77F820}"
+          id="{D20C5828-1C14-4854-9604-5C1245D59907}"
+          ph="footer" />
       </d>
     </r>
 Languages:
