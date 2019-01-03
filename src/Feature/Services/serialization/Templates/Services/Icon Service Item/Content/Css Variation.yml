@@ -5,6 +5,10 @@ Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Feature/Services/Icon Service Item/Content/Css Variation
 DB: master
 SharedFields:
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link text="Fontawesome" linktype="external" url="https://fontawesome.com/v4.7.0/" anchor="" target="_blank" />
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: "Single-Line Text"
@@ -13,6 +17,13 @@ SharedFields:
   Value: 100
 Languages:
 - Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: You can add new one (Font Awesome 4.7.0 )
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Font Awesome 4.7.0
   Versions:
   - Version: 1
     Fields:
